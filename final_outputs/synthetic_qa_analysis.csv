@@ -1,0 +1,543 @@
+country,type,source,q_len_words,a_len_words,question,answer
+Afghanistan,factual,demo_template,4,14,Where is Afghanistan located?,"Afghanistan is located in Southern Asia, north and west of Pakistan, east of Iran."
+Afghanistan,descriptive,demo_template,5,13,Describe the climate of Afghanistan.,The climate of Afghanistan is: arid to semiarid; cold winters and hot summers.
+Afghanistan,descriptive,demo_template,5,30,What economy does Afghanistan have?,"Economy of Afghanistan: low-income South Asian economy; economy stable after major contraction due to Taliban takeover, but recovery remains fragile; "
+Afghanistan,factual,demo_template,6,34,What languages are spoken in Afghanistan?,"Languages in Afghanistan: Afghan Persian or Dari (official, lingua franca) 77%, Pashto (official) 48%, Uzbeki 11%, English 6%, Turkmani 3%, Urdu 3%, P"
+Afghanistan,factual,demo_template,7,13,What type of government does Afghanistan have?,Afghanistan has a theocratic; the United States does not recognize the Taliban Government.
+Albania,factual,demo_template,6,7,What is the capital of Albania?,The capital of Albania is Tirana (Tirane).
+Albania,factual,demo_template,4,25,Where is Albania located?,"Albania is located in Southeastern Europe, bordering the Adriatic Sea and Ionian Sea, between Greece to the south and Montenegro and Kosovo to the nor"
+Albania,descriptive,demo_template,5,20,Describe the climate of Albania.,"The climate of Albania is: mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter."
+Albania,descriptive,demo_template,5,27,What economy does Albania have?,"Economy of Albania: upper-middle -income Balkan economy; EU accession candidate; growth bolstered by tourism, services, construction, and private cons"
+Albania,factual,demo_template,6,27,What languages are spoken in Albania?,"Languages in Albania: Albanian 98.8% (official - derived from Tosk dialect), Greek 0.5%, other 0.6% (including Macedonian, Romani, Vlach, Turkish, Ita"
+Albania,factual,demo_template,7,5,What type of government does Albania have?,Albania has a parliamentary republic.
+Algeria,factual,demo_template,6,6,What is the capital of Algeria?,The capital of Algeria is Algiers.
+Algeria,factual,demo_template,4,14,Where is Algeria located?,"Algeria is located in Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia."
+Algeria,descriptive,demo_template,5,37,Describe the climate of Algeria.,"The climate of Algeria is: arid to semiarid; mild, wet winters with hot, dry summers along coast; drier with cold winters and hot summers on high plat"
+Algeria,descriptive,demo_template,5,29,What economy does Algeria have?,Economy of Algeria: suffering oil and gas economy; lack of sector and market diversification; political instability chilling domestic consumption; poo
+Algeria,factual,demo_template,6,19,What languages are spoken in Algeria?,"Languages in Algeria: Arabic (official), French (lingua franca), Tamazight (official) (dialects include Kabyle (Taqbaylit), Shawiya (Tacawit), Mzab, T"
+Algeria,factual,demo_template,7,5,What type of government does Algeria have?,Algeria has a presidential republic.
+American Samoa,factual,demo_template,7,8,What is the capital of American Samoa?,The capital of American Samoa is Pago Pago.
+American Samoa,factual,demo_template,5,21,Where is American Samoa located?,"American Samoa is located in Oceania, group of islands in the South Pacific Ocean, about halfway between Hawaii and New Zealand."
+American Samoa,descriptive,demo_template,6,33,Describe the climate of American Samoa.,"The climate of American Samoa is: tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to A"
+American Samoa,descriptive,demo_template,6,28,What economy does American Samoa have?,"Economy of American Samoa: tourism, tuna, and government services-based territorial economy; sustained economic decline; vulnerable tuna canning indus"
+American Samoa,factual,demo_template,7,29,What languages are spoken in American Samoa?,"Languages in American Samoa: Samoan 87.9% (closely related to Hawaiian and other Polynesian languages), English 3.3%, Tongan 2.1%, other Pacific Islan"
+American Samoa,factual,demo_template,8,25,What type of government does American Samoa have?,"American Samoa has a unincorporated, unorganized Territory of the US with local self-government; republican form of territorial government with separa"
+Andorra,factual,demo_template,6,8,What is the capital of Andorra?,The capital of Andorra is Andorra la Vella.
+Andorra,factual,demo_template,4,15,Where is Andorra located?,"Andorra is located in Southwestern Europe, Pyrenees mountains, on the border between France and Spain."
+Andorra,descriptive,demo_template,5,13,Describe the climate of Andorra.,"The climate of Andorra is: temperate; snowy, cold winters and warm, dry summers."
+Andorra,descriptive,demo_template,5,33,What economy does Andorra have?,Economy of Andorra: high GDP; low unemployment; non-EU Euro user; co-principality duty-free area between Spain and France; tourist hub but hit hard by
+Andorra,factual,demo_template,6,18,What languages are spoken in Andorra?,"Languages in Andorra: Catalan (official) 44.1%, Castilian 40.3%, Portuguese 13.5%, French 10%, English 3%, other 6.8% (2022 est.)."
+Andorra,factual,demo_template,7,34,What type of government does Andorra have?,Andorra has a parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the Pr
+Angola,factual,demo_template,6,6,What is the capital of Angola?,The capital of Angola is Luanda.
+Angola,factual,demo_template,4,19,Where is Angola located?,"Angola is located in Southern Africa, bordering the South Atlantic Ocean, between Namibia and Democratic Republic of the Congo."
+Angola,descriptive,demo_template,5,28,Describe the climate of Angola.,"The climate of Angola is: semiarid in south and along coast to Luanda; north has cool, dry season (May to October) and hot, rainy season (November to "
+Angola,descriptive,demo_template,5,24,What economy does Angola have?,"Economy of Angola: middle-income, oil-dependent African economy; widespread poverty; rising inflation and currency depreciation; seeking diversificati"
+Angola,factual,demo_template,6,30,What languages are spoken in Angola?,"Languages in Angola: Portuguese 71.2% (official), Umbundu 23%, Kikongo 8.2%, Kimbundu 7.8%, Chokwe 6.5%, Nhaneca 3.4%, Nganguela 3.1%, Fiote 2.4%, Kwa"
+Angola,factual,demo_template,7,5,What type of government does Angola have?,Angola has a presidential republic.
+Anguilla,factual,demo_template,6,7,What is the capital of Anguilla?,The capital of Anguilla is The Valley.
+Anguilla,factual,demo_template,4,18,Where is Anguilla located?,"Anguilla is located in Caribbean, islands between the Caribbean Sea and North Atlantic Ocean, east of Puerto Rico."
+Anguilla,descriptive,demo_template,5,11,Describe the climate of Anguilla.,The climate of Anguilla is: tropical; moderated by northeast trade winds.
+Anguilla,descriptive,demo_template,5,28,What economy does Anguilla have?,"Economy of Anguilla: small, tourism-dependent, territorial-island economy; very high public debt; COVID-19 crippled economic activity; partial recover"
+Anguilla,factual,demo_template,6,5,What languages are spoken in Anguilla?,Languages in Anguilla: English (official).
+Anguilla,factual,demo_template,7,14,What type of government does Anguilla have?,Anguilla has a parliamentary democracy (House of Assembly); self-governing overseas territory of the UK.
+Antarctica,factual,demo_template,4,11,Where is Antarctica located?,Antarctica is located in continent mostly south of the Antarctic Circle.
+Antarctica,descriptive,demo_template,5,36,Describe the climate of Antarctica.,"The climate of Antarctica is: the coldest, windiest, and driest continent on Earth; severe low temperatures vary with latitude, elevation, and distanc"
+Antarctica,factual,demo_template,7,37,What type of government does Antarctica have?,Antarctica has a Antarctic Treaty Summary - the Antarctic region is governed by a system known as the Antarctic Treaty system; the system includes: 1.
+Antigua and Barbuda,factual,demo_template,8,9,What is the capital of Antigua and Barbuda?,The capital of Antigua and Barbuda is Saint John's.
+Antigua and Barbuda,factual,demo_template,6,21,Where is Antigua and Barbuda located?,"Antigua and Barbuda is located in Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico."
+Antigua and Barbuda,descriptive,demo_template,7,13,Describe the climate of Antigua and Barbuda.,The climate of Antigua and Barbuda is: tropical maritime; little seasonal temperature variation.
+Antigua and Barbuda,descriptive,demo_template,7,29,What economy does Antigua and Barbuda have?,Economy of Antigua and Barbuda: dual island-tourism and construction-driven economy; emerging “blue economy”; limited water supply and susceptibility 
+Antigua and Barbuda,factual,demo_template,8,12,What languages are spoken in Antigua and Barbuda?,"Languages in Antigua and Barbuda: English (official), Antiguan Creole (an English-based creole)."
+Antigua and Barbuda,factual,demo_template,9,14,What type of government does Antigua and Barbuda have?,Antigua and Barbuda has a parliamentary democracy under a constitutional monarchy; a Commonwealth realm.
+Argentina,factual,demo_template,6,7,What is the capital of Argentina?,The capital of Argentina is Buenos Aires.
+Argentina,factual,demo_template,4,16,Where is Argentina located?,"Argentina is located in Southern South America, bordering the South Atlantic Ocean, between Chile and Uruguay."
+Argentina,descriptive,demo_template,5,13,Describe the climate of Argentina.,The climate of Argentina is: mostly temperate; arid in southeast; subantarctic in southwest.
+Argentina,descriptive,demo_template,5,28,What economy does Argentina have?,"Economy of Argentina: large diversified economy; financial risks from debt obligations, rapid inflation, and reduced investor appetites; resource-rich"
+Argentina,factual,demo_template,6,13,What languages are spoken in Argentina?,"Languages in Argentina: Spanish (official), Italian, English, German, French, indigenous (Quechua, Guarani, Mapudungun)."
+Argentina,factual,demo_template,7,5,What type of government does Argentina have?,Argentina has a presidential republic.
+Armenia,factual,demo_template,6,6,What is the capital of Armenia?,The capital of Armenia is Yerevan.
+Armenia,factual,demo_template,4,36,Where is Armenia located?,"Armenia is located in Southwestern Asia, between Turkey (to the west) and Azerbaijan; note - Armenia views itself as part of Europe; geopolitically, i"
+Armenia,descriptive,demo_template,5,11,Describe the climate of Armenia.,"The climate of Armenia is: highland continental, hot summers, cold winters."
+Armenia,descriptive,demo_template,5,33,What economy does Armenia have?,"Economy of Armenia: upper-middle income, fast-growing Caucasus economy; stable fiscal and monetary regime but vulnerable to geopolitical shocks; econo"
+Armenia,factual,demo_template,6,22,What languages are spoken in Armenia?,"Languages in Armenia: Armenian (official) 97.9%, Kurmanji (spoken by Yezidi minority) 1%, other 1.1%; note - Russian is widely spoken (2011 est.)."
+Armenia,factual,demo_template,7,20,What type of government does Armenia have?,Armenia has a parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system.
+Aruba,factual,demo_template,6,6,What is the capital of Aruba?,The capital of Aruba is Oranjestad.
+Aruba,factual,demo_template,4,13,Where is Aruba located?,"Aruba is located in Caribbean, island in the Caribbean Sea, north of Venezuela."
+Aruba,descriptive,demo_template,5,11,Describe the climate of Aruba.,The climate of Aruba is: tropical marine; little seasonal temperature variation.
+Aruba,descriptive,demo_template,5,28,What economy does Aruba have?,"Economy of Aruba: small, tourism-dependent, territorial-island economy; very high public debt; COVID-19 crippled economic activity; partial recovery u"
+Aruba,factual,demo_template,6,29,What languages are spoken in Aruba?,"Languages in Aruba: Papiamento (official) (a creole language that mixes Portuguese, Spanish, Dutch, English, French, African languages, and Arawak) 69"
+Aruba,factual,demo_template,7,12,What type of government does Aruba have?,Aruba has a parliamentary democracy; part of the Kingdom of the Netherlands.
+Ashmore and Cartier Islands,factual,demo_template,7,42,Where is Ashmore and Cartier Islands located?,"Ashmore and Cartier Islands is located in Southeastern Asia, islands in the Indian Ocean, midway between northwestern Australia and Timor island; Ashm"
+Ashmore and Cartier Islands,descriptive,demo_template,8,9,Describe the climate of Ashmore and Cartier Islands.,The climate of Ashmore and Cartier Islands is: tropical.
+Australia,factual,demo_template,6,6,What is the capital of Australia?,The capital of Australia is Canberra.
+Australia,factual,demo_template,4,15,Where is Australia located?,"Australia is located in Oceania, continent between the Indian Ocean and the South Pacific Ocean."
+Australia,descriptive,demo_template,5,17,Describe the climate of Australia.,The climate of Australia is: generally arid to semiarid; temperate in south and east; tropical in north.
+Australia,descriptive,demo_template,5,29,What economy does Australia have?,"Economy of Australia: highly developed, diversified, regionally and globally integrated economy; strong mining, manufacturing, and service sectors; ne"
+Australia,factual,demo_template,6,19,What languages are spoken in Australia?,"Languages in Australia: English 72%, Mandarin 2.7%, Arabic 1.4%, Vietnamese 1.3%, Cantonese 1.2%, other 15.7%, unspecified 5.7% (2021 est.)."
+Australia,factual,demo_template,7,13,What type of government does Australia have?,Australia has a federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm.
+Austria,factual,demo_template,6,6,What is the capital of Austria?,The capital of Austria is Vienna.
+Austria,factual,demo_template,4,11,Where is Austria located?,"Austria is located in Central Europe, north of Italy and Slovenia."
+Austria,descriptive,demo_template,5,27,Describe the climate of Austria.,"The climate of Austria is: temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate s"
+Austria,descriptive,demo_template,5,32,What economy does Austria have?,Economy of Austria: one of the strongest EU and euro economies; diversified trade portfolios and relations; enormous trade economy; Russian energy dep
+Austria,factual,demo_template,6,29,What languages are spoken in Austria?,"Languages in Austria: German (official nationwide) 88.6%, Turkish 2.3%, Serbian 2.2%, Croatian (official in Burgenland) 1.6%, other (includes Slovene,"
+Austria,factual,demo_template,7,6,What type of government does Austria have?,Austria has a federal parliamentary republic.
+Azerbaijan,factual,demo_template,6,8,What is the capital of Azerbaijan?,"The capital of Azerbaijan is Baku (Baki, Baky)."
+Azerbaijan,factual,demo_template,4,24,Where is Azerbaijan located?,"Azerbaijan is located in Southwestern Asia, bordering the Caspian Sea, between Iran and Russia, with a small European portion north of the Caucasus ra"
+Azerbaijan,descriptive,demo_template,5,8,Describe the climate of Azerbaijan.,"The climate of Azerbaijan is: dry, semiarid steppe."
+Azerbaijan,descriptive,demo_template,5,27,What economy does Azerbaijan have?,"Economy of Azerbaijan: upper-middle income, oil-dependent Caucasus economy; minimal economic diversification and dominance of state-owned enterprises;"
+Azerbaijan,factual,demo_template,6,15,What languages are spoken in Azerbaijan?,"Languages in Azerbaijan: Azerbaijani (Azeri) (official) 92.5%, Russian 1.4%, Armenian 1.4%, other 4.7% (2009 est.)."
+Azerbaijan,factual,demo_template,7,5,What type of government does Azerbaijan have?,Azerbaijan has a presidential republic.
+"Bahamas, The",factual,demo_template,7,7,"What is the capital of Bahamas, The?","The capital of Bahamas, The is Nassau."
+"Bahamas, The",factual,demo_template,5,38,"Where is Bahamas, The located?","Bahamas, The is located in chain of islands in the North Atlantic Ocean, southeast of Florida, northeast of Cuba; note - although The Bahamas does not"
+"Bahamas, The",descriptive,demo_template,6,15,"Describe the climate of Bahamas, The.","The climate of Bahamas, The is: tropical marine; moderated by warm waters of Gulf Stream."
+"Bahamas, The",descriptive,demo_template,6,28,"What economy does Bahamas, The have?","Economy of Bahamas, The: high-income tourism and financial services economy; major income inequality; strong US bilateral relations; several tax relie"
+"Bahamas, The",factual,demo_template,7,10,"What languages are spoken in Bahamas, The?","Languages in Bahamas, The: English (official), Creole (among Haitian immigrants)."
+"Bahamas, The",factual,demo_template,8,13,"What type of government does Bahamas, The have?","Bahamas, The has a parliamentary democracy under a constitutional monarchy; a Commonwealth realm."
+Bahrain,factual,demo_template,6,6,What is the capital of Bahrain?,The capital of Bahrain is Manama.
+Bahrain,factual,demo_template,4,15,Where is Bahrain located?,"Bahrain is located in Middle East, archipelago in the Persian Gulf, east of Saudi Arabia."
+Bahrain,descriptive,demo_template,5,13,Describe the climate of Bahrain.,"The climate of Bahrain is: arid; mild, pleasant winters; very hot, humid summers."
+Bahrain,descriptive,demo_template,5,30,What economy does Bahrain have?,"Economy of Bahrain: high-income, growing Middle Eastern island economy; oil and aluminum exporter with diversification led by services, construction a"
+Bahrain,factual,demo_template,6,8,What languages are spoken in Bahrain?,"Languages in Bahrain: Arabic (official), English, Farsi, Urdu."
+Bahrain,factual,demo_template,7,5,What type of government does Bahrain have?,Bahrain has a constitutional monarchy.
+Baker Island,factual,demo_template,5,6,Where is Baker Island located?,Baker Island is located in Oceania.
+Bangladesh,factual,demo_template,4,15,Where is Bangladesh located?,"Bangladesh is located in Southern Asia, bordering the Bay of Bengal, between Burma and India."
+Bangladesh,descriptive,demo_template,5,24,Describe the climate of Bangladesh.,"The climate of Bangladesh is: tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)"
+Bangladesh,descriptive,demo_template,5,28,What economy does Bangladesh have?,Economy of Bangladesh: one of the fastest growing emerging market economies; strong economic rebound following COVID-19; significant poverty reduction
+Bangladesh,factual,demo_template,6,14,What languages are spoken in Bangladesh?,"Languages in Bangladesh: Bangla 98.8% (official, also known as Bengali), other 1.2% (2011 est.)."
+Bangladesh,factual,demo_template,7,5,What type of government does Bangladesh have?,Bangladesh has a parliamentary republic.
+Barbados,factual,demo_template,6,6,What is the capital of Barbados?,The capital of Barbados is Bridgetown.
+Barbados,factual,demo_template,4,14,Where is Barbados located?,"Barbados is located in Caribbean, island in the North Atlantic Ocean, northeast of Venezuela."
+Barbados,descriptive,demo_template,5,11,Describe the climate of Barbados.,The climate of Barbados is: tropical; rainy season (June to October).
+Barbados,descriptive,demo_template,5,31,What economy does Barbados have?,"Economy of Barbados: high-income Eastern Caribbean economy; high standard of living among regional peers; key tourism, construction, and financial sec"
+Barbados,factual,demo_template,6,14,What languages are spoken in Barbados?,"Languages in Barbados: English (official), Bajan (English-based creole language, widely spoken in informal settings)."
+Barbados,factual,demo_template,7,8,What type of government does Barbados have?,Barbados has a parliamentary republic; a Commonwealth realm.
+Belarus,factual,demo_template,4,9,Where is Belarus located?,"Belarus is located in Eastern Europe, east of Poland."
+Belarus,descriptive,demo_template,5,16,Describe the climate of Belarus.,"The climate of Belarus is: cold winters, cool and moist summers; transitional between continental and maritime."
+Belarus,descriptive,demo_template,5,34,What economy does Belarus have?,Economy of Belarus: declining Russian energy subsidies will end in 2024; growing public debt; strong currency pressures have led to higher inflation; 
+Belarus,factual,demo_template,6,21,What languages are spoken in Belarus?,"Languages in Belarus: Russian (official) 71.4%, Belarusian (official) 26%, other 0.3% (includes small Polish- and Ukrainian-speaking minorities), unsp"
+Belarus,factual,demo_template,7,12,What type of government does Belarus have?,"Belarus has a presidential republic in name, although in fact a dictatorship."
+Belgium,factual,demo_template,6,6,What is the capital of Belgium?,The capital of Belgium is Brussels.
+Belgium,factual,demo_template,4,15,Where is Belgium located?,"Belgium is located in Western Europe, bordering the North Sea, between France and the Netherlands."
+Belgium,descriptive,demo_template,5,13,Describe the climate of Belgium.,"The climate of Belgium is: temperate; mild winters, cool summers; rainy, humid, cloudy."
+Belgium,descriptive,demo_template,5,32,What economy does Belgium have?,"Economy of Belgium: high-income, core EU and eurozone economy; slow but steady growth supported by household consumption and energy shock recovery; hi"
+Belgium,factual,demo_template,6,14,What languages are spoken in Belgium?,"Languages in Belgium: Dutch (official) 60%, French (official) 40%, German (official) less than 1%."
+Belgium,factual,demo_template,7,10,What type of government does Belgium have?,Belgium has a federal parliamentary democracy under a constitutional monarchy.
+Belize,factual,demo_template,6,6,What is the capital of Belize?,The capital of Belize is Belmopan.
+Belize,factual,demo_template,4,14,Where is Belize located?,"Belize is located in Central America, bordering the Caribbean Sea, between Guatemala and Mexico."
+Belize,descriptive,demo_template,5,20,Describe the climate of Belize.,The climate of Belize is: tropical; very hot and humid; rainy season (May to November); dry season (February to May).
+Belize,descriptive,demo_template,5,26,What economy does Belize have?,Economy of Belize: tourism- and agriculture-driven economy; strong post-pandemic rebound; innovative and ecological bond restructuring that significan
+Belize,factual,demo_template,6,22,What languages are spoken in Belize?,"Languages in Belize: English 62.9% (official), Spanish 56.6%, Creole 44.6%, Maya 10.5%, German 3.2%, Garifuna 2.9%, other 1.8%, unknown 0.5% (2010 est"
+Belize,factual,demo_template,7,14,What type of government does Belize have?,Belize has a parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm.
+Benin,factual,demo_template,6,12,What is the capital of Benin?,The capital of Benin is Porto-Novo (constitutional capital); Cotonou (seat of government).
+Benin,factual,demo_template,4,15,Where is Benin located?,"Benin is located in Western Africa, bordering the Bight of Benin, between Nigeria and Togo."
+Benin,descriptive,demo_template,5,13,Describe the climate of Benin.,"The climate of Benin is: tropical; hot, humid in south; semiarid in north."
+Benin,descriptive,demo_template,5,31,What economy does Benin have?,Economy of Benin: robust economic growth; slightly declining but still widespread poverty; strong trade relations with Nigeria; cotton exporter; COVID
+Benin,factual,demo_template,6,35,What languages are spoken in Benin?,"Languages in Benin: 55 languages; French (official); Fon (a Gbe language), Yom (a Gur language) and Yoruba are the most important indigenous languages"
+Benin,factual,demo_template,7,5,What type of government does Benin have?,Benin has a presidential republic.
+Bermuda,factual,demo_template,6,6,What is the capital of Bermuda?,The capital of Bermuda is Hamilton.
+Bermuda,factual,demo_template,4,19,Where is Bermuda located?,"Bermuda is located in North America, group of islands in the North Atlantic Ocean, east of South Carolina (US)."
+Bermuda,descriptive,demo_template,5,14,Describe the climate of Bermuda.,"The climate of Bermuda is: subtropical; mild, humid; gales, strong winds common in winter."
+Bermuda,descriptive,demo_template,5,25,What economy does Bermuda have?,"Economy of Bermuda: small, tourism- and construction-based, territorial-island economy; American import and tourist destination; known offshore bankin"
+Bermuda,factual,demo_template,6,6,What languages are spoken in Bermuda?,"Languages in Bermuda: English (official), Portuguese."
+Bermuda,factual,demo_template,7,13,What type of government does Bermuda have?,Bermuda has a Overseas Territory of the UK with limited self-government; parliamentary democracy.
+Bhutan,factual,demo_template,6,6,What is the capital of Bhutan?,The capital of Bhutan is Thimphu.
+Bhutan,factual,demo_template,4,10,Where is Bhutan located?,"Bhutan is located in Southern Asia, between China and India."
+Bhutan,descriptive,demo_template,5,25,Describe the climate of Bhutan.,The climate of Bhutan is: varies; tropical in southern plains; cool winters and hot summers in central valleys; severe winters and cool summers in Him
+Bhutan,descriptive,demo_template,5,27,What economy does Bhutan have?,Economy of Bhutan: hydropower investments spurring economic development; Gross National Happiness economy; sharp poverty declines; low inflation; stro
+Bhutan,factual,demo_template,6,17,What languages are spoken in Bhutan?,"Languages in Bhutan: Sharchopkha 28%, Dzongkha (official) 24%, Lhotshamkha 22%, other 26% (includes foreign languages) (2005 est.)."
+Bhutan,factual,demo_template,7,5,What type of government does Bhutan have?,Bhutan has a constitutional monarchy.
+Bolivia,factual,demo_template,6,15,What is the capital of Bolivia?,The capital of Bolivia is La Paz (administrative capital); Sucre (constitutional [legislative and judicial] capital).
+Bolivia,factual,demo_template,4,10,Where is Bolivia located?,"Bolivia is located in Central South America, southwest of Brazil."
+Bolivia,descriptive,demo_template,5,15,Describe the climate of Bolivia.,The climate of Bolivia is: varies with altitude; humid and tropical to cold and semiarid.
+Bolivia,descriptive,demo_template,5,29,What economy does Bolivia have?,"Economy of Bolivia: resource-rich economy benefits during commodity booms; has bestowed juridical rights to Mother Earth, impacting extraction industr"
+Bolivia,factual,demo_template,6,30,What languages are spoken in Bolivia?,"Languages in Bolivia: Spanish (official) 68.1%, Quechua (official) 17.2%, Aymara (official) 10.5%, Guarani (official) 0.6%, other 1.5%, unspecified 2."
+Bolivia,factual,demo_template,7,5,What type of government does Bolivia have?,Bolivia has a presidential republic.
+Bosnia and Herzegovina,factual,demo_template,8,8,What is the capital of Bosnia and Herzegovina?,The capital of Bosnia and Herzegovina is Sarajevo.
+Bosnia and Herzegovina,factual,demo_template,6,14,Where is Bosnia and Herzegovina located?,"Bosnia and Herzegovina is located in Southeastern Europe, bordering the Adriatic Sea and Croatia."
+Bosnia and Herzegovina,descriptive,demo_template,7,29,Describe the climate of Bosnia and Herzegovina.,"The climate of Bosnia and Herzegovina is: hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mil"
+Bosnia and Herzegovina,descriptive,demo_template,7,25,What economy does Bosnia and Herzegovina have?,Economy of Bosnia and Herzegovina: import-dominated economy; remains consumption-heavy; lack of private sector investments and diversification; jointl
+Bosnia and Herzegovina,factual,demo_template,8,21,What languages are spoken in Bosnia and Herzegovina?,"Languages in Bosnia and Herzegovina: Bosnian (official) 52.9%, Serbian (official) 30.8%, Croatian (official) 14.6%, other 1.6%, no answer 0.2% (2013 e"
+Bosnia and Herzegovina,factual,demo_template,9,7,What type of government does Bosnia and Herzegovina have?,Bosnia and Herzegovina has a parliamentary republic.
+Botswana,factual,demo_template,6,6,What is the capital of Botswana?,The capital of Botswana is Gaborone.
+Botswana,factual,demo_template,4,10,Where is Botswana located?,"Botswana is located in Southern Africa, north of South Africa."
+Botswana,descriptive,demo_template,5,11,Describe the climate of Botswana.,The climate of Botswana is: semiarid; warm winters and hot summers.
+Botswana,descriptive,demo_template,5,26,What economy does Botswana have?,Economy of Botswana: good economic governance and financial management; diamond-driven growth model declining; rapid poverty reductions; high unemploy
+Botswana,factual,demo_template,6,24,What languages are spoken in Botswana?,"Languages in Botswana: Setswana 77.3%, Sekalanga 7.4%, Shekgalagadi 3.4%, English (official) 2.8%, Zezuru/Shona 2%, Sesarwa 1.7%, Sembukushu 1.6%, Nde"
+Botswana,factual,demo_template,7,5,What type of government does Botswana have?,Botswana has a parliamentary republic.
+Bouvet Island,factual,demo_template,5,20,Where is Bouvet Island located?,"Bouvet Island is located in island in the South Atlantic Ocean, southwest of the Cape of Good Hope (South Africa)."
+Bouvet Island,descriptive,demo_template,6,7,Describe the climate of Bouvet Island.,The climate of Bouvet Island is: antarctic.
+Brazil,factual,demo_template,6,6,What is the capital of Brazil?,The capital of Brazil is Brasília.
+Brazil,factual,demo_template,4,11,Where is Brazil located?,"Brazil is located in Eastern South America, bordering the Atlantic Ocean."
+Brazil,descriptive,demo_template,5,11,Describe the climate of Brazil.,"The climate of Brazil is: mostly tropical, but temperate in south."
+Brazil,descriptive,demo_template,5,29,What economy does Brazil have?,"Economy of Brazil: upper-middle income, largest Latin American economy; Mercosur, BRICS, G20 member and OECD accession candidate; growth driven by str"
+Brazil,factual,demo_template,6,28,What languages are spoken in Brazil?,"Languages in Brazil: Portuguese (official and most widely spoken language); less common languages include Spanish (border areas and schools), German, "
+Brazil,factual,demo_template,7,6,What type of government does Brazil have?,Brazil has a federal presidential republic.
+British Indian Ocean Territory,factual,demo_template,9,18,What is the capital of British Indian Ocean Territory?,The capital of British Indian Ocean Territory is administered from London; often regarded as being on Diego Garcia.
+British Indian Ocean Territory,factual,demo_template,7,21,Where is British Indian Ocean Territory located?,"British Indian Ocean Territory is located in archipelago in the Indian Ocean, south of India, about halfway between Africa and Indonesia."
+British Indian Ocean Territory,descriptive,demo_template,8,16,Describe the climate of British Indian Ocean Territory.,"The climate of British Indian Ocean Territory is: tropical marine; hot, humid, moderated by trade winds."
+British Indian Ocean Territory,descriptive,demo_template,8,32,What economy does British Indian Ocean Territory have?,Economy of British Indian Ocean Territory: small island territory economy; economic activity mainly on Diego Garcia with national military installatio
+British Virgin Islands,factual,demo_template,8,9,What is the capital of British Virgin Islands?,The capital of British Virgin Islands is Road Town.
+British Virgin Islands,factual,demo_template,6,20,Where is British Virgin Islands located?,"British Virgin Islands is located in Caribbean, between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico."
+British Virgin Islands,descriptive,demo_template,7,14,Describe the climate of British Virgin Islands.,The climate of British Virgin Islands is: subtropical; humid; temperatures moderated by trade winds.
+British Virgin Islands,descriptive,demo_template,7,31,What economy does British Virgin Islands have?,Economy of British Virgin Islands: British Caribbean island territorial economy; strong tourism and services industries; vulnerable to hurricanes; nav
+British Virgin Islands,factual,demo_template,8,10,What languages are spoken in British Virgin Islands?,"Languages in British Virgin Islands: English (official), Virgin Islands Creole."
+British Virgin Islands,factual,demo_template,9,15,What type of government does British Virgin Islands have?,British Virgin Islands has a Overseas Territory of the UK with limited self-government; parliamentary democracy.
+Brunei,factual,demo_template,6,8,What is the capital of Brunei?,The capital of Brunei is Bandar Seri Begawan.
+Brunei,factual,demo_template,4,22,Where is Brunei located?,"Brunei is located in Southeastern Asia, along the northern coast of the island of Borneo, bordering the South China Sea and Malaysia."
+Brunei,descriptive,demo_template,5,9,Describe the climate of Brunei.,"The climate of Brunei is: tropical; hot, humid, rainy."
+Brunei,descriptive,demo_template,5,33,What economy does Brunei have?,Economy of Brunei: almost exclusively an oil and gas economy; high income country; expansive and robust welfare system; the majority of the population
+Brunei,factual,demo_template,6,10,What languages are spoken in Brunei?,"Languages in Brunei: Malay (Bahasa Melayu) (official), English, Chinese dialects."
+Brunei,factual,demo_template,7,7,What type of government does Brunei have?,Brunei has a absolute monarchy or sultanate.
+Bulgaria,factual,demo_template,4,14,Where is Bulgaria located?,"Bulgaria is located in Southeastern Europe, bordering the Black Sea, between Romania and Turkey."
+Bulgaria,descriptive,demo_template,5,12,Describe the climate of Bulgaria.,"The climate of Bulgaria is: temperate; cold, damp winters; hot, dry summers."
+Bulgaria,descriptive,demo_template,5,32,What economy does Bulgaria have?,Economy of Bulgaria: upper-middle-income EU economy; currency pegged to the euro with accession pending; joined Schengen area as of March 2024; global
+Bulgaria,factual,demo_template,6,16,What languages are spoken in Bulgaria?,"Languages in Bulgaria: Bulgarian (official) 77.3%, Turkish 7.9%, Romani 3.5%, other 1%, unspecified 10.4% (2021 est.)."
+Bulgaria,factual,demo_template,7,5,What type of government does Bulgaria have?,Bulgaria has a parliamentary republic.
+Burkina Faso,factual,demo_template,7,7,What is the capital of Burkina Faso?,The capital of Burkina Faso is Ouagadougou.
+Burkina Faso,factual,demo_template,5,10,Where is Burkina Faso located?,"Burkina Faso is located in Western Africa, north of Ghana."
+Burkina Faso,descriptive,demo_template,6,40,Describe the climate of Burkina Faso.,"The climate of Burkina Faso is: three climate zones including a hot tropical savanna with a short rainy season in the southern half, a tropical hot se"
+Burkina Faso,descriptive,demo_template,6,28,What economy does Burkina Faso have?,"Economy of Burkina Faso: highly agrarian, low-income economy; limited natural resources; widespread poverty; terrorism disrupting potential economic a"
+Burkina Faso,factual,demo_template,7,37,What languages are spoken in Burkina Faso?,"Languages in Burkina Faso: Mossi 52.9%, Fula 7.8%, Gourmantche 6.8%, Dyula 5.7%, Bissa 3.3%, Gurunsi 3.2%, French (official) 2.2%, Bwamu 2%, Dagara 2%"
+Burkina Faso,factual,demo_template,8,6,What type of government does Burkina Faso have?,Burkina Faso has a presidential republic.
+Burma,factual,demo_template,6,28,What is the capital of Burma?,"The capital of Burma is Rangoon (aka Yangon, continues to be recognized as the primary Burmese capital by the US Government); Nay Pyi Taw is the admin"
+Burma,factual,demo_template,4,19,Where is Burma located?,"Burma is located in Southeastern Asia, bordering the Andaman Sea and the Bay of Bengal, between Bangladesh and Thailand."
+Burma,descriptive,demo_template,5,31,Describe the climate of Burma.,"The climate of Burma is: tropical monsoon; cloudy, rainy, hot, humid summers (southwest monsoon, June to September); less cloudy, scant rainfall, mild"
+Burma,descriptive,demo_template,5,30,What economy does Burma have?,"Economy of Burma: prior to COVID-19 and the February 2021 military coup, massive declines in poverty, rapid economic growth, and improving social welf"
+Burma,factual,demo_template,6,5,What languages are spoken in Burma?,Languages in Burma: Burmese (official).
+Burma,factual,demo_template,7,5,What type of government does Burma have?,Burma has a military regime.
+Burundi,factual,demo_template,6,11,What is the capital of Burundi?,"The capital of Burundi is Gitega (political capital), Bujumbura (commercial capital)."
+Burundi,factual,demo_template,4,17,Where is Burundi located?,"Burundi is located in Central Africa, east of the Democratic Republic of the Congo, west of Tanzania."
+Burundi,descriptive,demo_template,5,36,Describe the climate of Burundi.,"The climate of Burundi is: equatorial; high plateau with considerable altitude variation (772 m to 2,670 m above sea level); average annual temperatur"
+Burundi,descriptive,demo_template,5,27,What economy does Burundi have?,"Economy of Burundi: highly agrarian, low-income Sub-Saharan economy; declining foreign assistance; increasing fiscal insolvencies; dense and still gro"
+Burundi,factual,demo_template,6,14,What languages are spoken in Burundi?,"Languages in Burundi: Kirundi (official), French (official), English (official, least spoken), Swahili (2008 est.)."
+Burundi,factual,demo_template,7,5,What type of government does Burundi have?,Burundi has a presidential republic.
+Cabo Verde,factual,demo_template,5,18,Where is Cabo Verde located?,"Cabo Verde is located in Western Africa, group of islands in the North Atlantic Ocean, west of Senegal."
+Cabo Verde,descriptive,demo_template,6,14,Describe the climate of Cabo Verde.,"The climate of Cabo Verde is: temperate; warm, dry summer; precipitation meager and erratic."
+Cabo Verde,descriptive,demo_template,6,31,What economy does Cabo Verde have?,"Economy of Cabo Verde: stable, middle-income, developing island economy; strong GDP growth led by tourism sector recovery; sustained poverty reduction"
+Cabo Verde,factual,demo_template,7,15,What languages are spoken in Cabo Verde?,"Languages in Cabo Verde: Portuguese (official), Crioulo (a Portuguese-based creole language with two main dialects)."
+Cabo Verde,factual,demo_template,8,6,What type of government does Cabo Verde have?,Cabo Verde has a parliamentary republic.
+Cambodia,factual,demo_template,6,7,What is the capital of Cambodia?,The capital of Cambodia is Phnom Penh.
+Cambodia,factual,demo_template,4,16,Where is Cambodia located?,"Cambodia is located in Southeastern Asia, bordering the Gulf of Thailand, between Thailand, Vietnam, and Laos."
+Cambodia,descriptive,demo_template,5,21,Describe the climate of Cambodia.,"The climate of Cambodia is: tropical; rainy, monsoon season (May to November); dry season (December to April); little seasonal temperature variation."
+Cambodia,descriptive,demo_template,5,30,What economy does Cambodia have?,Economy of Cambodia: one of the fastest growing economies; tourism and clothing exports; substantial manufacturing and construction sectors; COVID-19 
+Cambodia,factual,demo_template,6,17,What languages are spoken in Cambodia?,"Languages in Cambodia: Khmer (official) 95.8%, minority languages 2.9%, Chinese 0.6%, Vietnamese 0.5%, other 0.2% (2019 est.)."
+Cambodia,factual,demo_template,7,6,What type of government does Cambodia have?,Cambodia has a parliamentary constitutional monarchy.
+Cameroon,factual,demo_template,6,6,What is the capital of Cameroon?,The capital of Cameroon is Yaounde.
+Cameroon,factual,demo_template,4,16,Where is Cameroon located?,"Cameroon is located in Central Africa, bordering the Bight of Biafra, between Equatorial Guinea and Nigeria."
+Cameroon,descriptive,demo_template,5,18,Describe the climate of Cameroon.,"The climate of Cameroon is: varies with terrain, from tropical along coast to semiarid and hot in north."
+Cameroon,descriptive,demo_template,5,28,What economy does Cameroon have?,Economy of Cameroon: largest CEMAC economy with many natural resources; recent political instability and terrorism reducing economic output; systemic 
+Cameroon,factual,demo_template,6,12,What languages are spoken in Cameroon?,"Languages in Cameroon: 24 major African language groups, English (official), French (official)."
+Cameroon,factual,demo_template,7,5,What type of government does Cameroon have?,Cameroon has a presidential republic.
+Canada,factual,demo_template,6,6,What is the capital of Canada?,The capital of Canada is Ottawa.
+Canada,factual,demo_template,4,33,Where is Canada located?,"Canada is located in Northern North America, bordering the North Atlantic Ocean on the east, North Pacific Ocean on the west, and the Arctic Ocean on "
+Canada,descriptive,demo_template,5,16,Describe the climate of Canada.,The climate of Canada is: varies from temperate in south to subarctic and arctic in north.
+Canada,descriptive,demo_template,5,29,What economy does Canada have?,Economy of Canada: one of the world’s leading developed economies; globally integrated commercial and financial markets; largest US trading partner; k
+Canada,factual,demo_template,6,24,What languages are spoken in Canada?,"Languages in Canada: English (official) 87.1%, French (official) 29.1%, Chinese languages 4.2%, Spanish 3.2%, Punjabi 2.6%, Arabic 2.4%, Tagalog 2.3%,"
+Canada,factual,demo_template,7,25,What type of government does Canada have?,Canada has a federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm; federal and state authoriti
+Cayman Islands,factual,demo_template,7,11,What is the capital of Cayman Islands?,The capital of Cayman Islands is George Town (on Grand Cayman).
+Cayman Islands,factual,demo_template,5,28,Where is Cayman Islands located?,"Cayman Islands is located in Caribbean, three-island group (Grand Cayman, Cayman Brac, Little Cayman) in Caribbean Sea, 240 km south of Cuba and 268 k"
+Cayman Islands,descriptive,demo_template,6,22,Describe the climate of Cayman Islands.,"The climate of Cayman Islands is: tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)."
+Cayman Islands,descriptive,demo_template,6,32,What economy does Cayman Islands have?,Economy of Cayman Islands: dominant offshore banking territory; services sector accounts for over 85% of economic activity; recently adopted a fiscal 
+Cayman Islands,factual,demo_template,7,17,What languages are spoken in Cayman Islands?,"Languages in Cayman Islands: English (official) 88.8%, Spanish 3.9%, Filipino 3.8%, other 2.8%, unspecified 0.7% (2021 est.)."
+Cayman Islands,factual,demo_template,8,12,What type of government does Cayman Islands have?,Cayman Islands has a parliamentary democracy; self-governing overseas territory of the UK.
+Central African Republic,factual,demo_template,8,8,What is the capital of Central African Republic?,The capital of Central African Republic is Bangui.
+Central African Republic,factual,demo_template,6,15,Where is Central African Republic located?,"Central African Republic is located in Central Africa, north of Democratic Republic of the Congo."
+Central African Republic,descriptive,demo_template,7,16,Describe the climate of Central African Republic.,"The climate of Central African Republic is: tropical; hot, dry winters; mild to hot, wet summers."
+Central African Republic,descriptive,demo_template,7,30,What economy does Central African Republic have?,Economy of Central African Republic: enormous natural resources; extreme poverty; weak public institutions and infrastructure; political and gender-ba
+Central African Republic,factual,demo_template,8,15,What languages are spoken in Central African Republic?,"Languages in Central African Republic: French (official), Sangho (lingua franca and national language), tribal languages."
+Central African Republic,factual,demo_template,9,7,What type of government does Central African Republic have?,Central African Republic has a presidential republic.
+Chad,factual,demo_template,6,6,What is the capital of Chad?,The capital of Chad is N'Djamena.
+Chad,factual,demo_template,4,9,Where is Chad located?,"Chad is located in Central Africa, south of Libya."
+Chad,descriptive,demo_template,5,11,Describe the climate of Chad.,"The climate of Chad is: tropical in south, desert in north."
+Chad,descriptive,demo_template,5,29,What economy does Chad have?,"Economy of Chad: oil-dependent economy challenged by market fluctuations, regional instability, refugee influx, and climate vulnerability; high levels"
+Chad,factual,demo_template,6,16,What languages are spoken in Chad?,"Languages in Chad: French (official), Arabic (official), Sara (in south), more than 120 languages and dialects."
+Chad,factual,demo_template,7,5,What type of government does Chad have?,Chad has a presidential republic.
+Chile,factual,demo_template,6,16,What is the capital of Chile?,The capital of Chile is Santiago; note - Valparaiso is the seat of the national legislature.
+Chile,factual,demo_template,4,16,Where is Chile located?,"Chile is located in Southern South America, bordering the South Pacific Ocean, between Argentina and Peru."
+Chile,descriptive,demo_template,5,18,Describe the climate of Chile.,The climate of Chile is: temperate; desert in north; Mediterranean in central region; cool and damp in south.
+Chile,descriptive,demo_template,5,29,What economy does Chile have?,"Economy of Chile: export-driven economy; leading copper producer; though hit by COVID-19, fairly quick rebound from increased liquidity and rapid vacc"
+Chile,factual,demo_template,6,22,What languages are spoken in Chile?,"Languages in Chile: Spanish 99.5% (official), English 10.2%, Indigenous 1% (includes Mapudungun, Aymara, Quechua, Rapa Nui), other 2.3%, unspecified 0"
+Chile,factual,demo_template,7,5,What type of government does Chile have?,Chile has a presidential republic.
+China,factual,demo_template,6,6,What is the capital of China?,The capital of China is Beijing.
+China,factual,demo_template,4,24,Where is China located?,"China is located in Eastern Asia, bordering the East China Sea, Korea Bay, Yellow Sea, and South China Sea, between North Korea and Vietnam."
+China,descriptive,demo_template,5,14,Describe the climate of China.,The climate of China is: extremely diverse; tropical in south to subarctic in north.
+China,descriptive,demo_template,5,28,What economy does China have?,Economy of China: world’s second-largest economy by nominal GDP; global leader in exports and manufacturing; historically strong growth slowing; chall
+China,factual,demo_template,6,28,What languages are spoken in China?,"Languages in China: Standard Chinese or Mandarin (official; Putonghua, based on the Beijing dialect), Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzh"
+China,factual,demo_template,7,6,What type of government does China have?,China has a communist party-led state.
+Christmas Island,factual,demo_template,7,11,What is the capital of Christmas Island?,The capital of Christmas Island is The Settlement (Flying Fish Cove).
+Christmas Island,factual,demo_template,5,15,Where is Christmas Island located?,"Christmas Island is located in Southeastern Asia, island in the Indian Ocean, south of Indonesia."
+Christmas Island,descriptive,demo_template,6,24,Describe the climate of Christmas Island.,The climate of Christmas Island is: tropical with a wet season (December to April) and dry season; heat and humidity moderated by trade winds.
+Christmas Island,descriptive,demo_template,6,25,What economy does Christmas Island have?,Economy of Christmas Island: high-income Australian territorial economy; development through government services and phosphate mining; operates Austra
+Christmas Island,factual,demo_template,7,24,What languages are spoken in Christmas Island?,"Languages in Christmas Island: English (official) 27.6%, Mandarin 17.2%, Malay 17.1%, Cantonese 3.9%, Min Nan 1.6%, Tagalog 1%, other 4.5%, unspecifie"
+Christmas Island,factual,demo_template,8,9,What type of government does Christmas Island have?,Christmas Island has a non-self-governing overseas territory of Australia.
+Clipperton Island,factual,demo_template,5,18,Where is Clipperton Island located?,"Clipperton Island is located in Middle America, atoll in the North Pacific Ocean, 1,120 km southwest of Mexico."
+Clipperton Island,descriptive,demo_template,6,18,Describe the climate of Clipperton Island.,"The climate of Clipperton Island is: tropical; humid, average temperature 20-32 degrees Celsius, wet season (May to October)."
+Cocos (Keeling) Islands,factual,demo_template,8,9,What is the capital of Cocos (Keeling) Islands?,The capital of Cocos (Keeling) Islands is West Island.
+Cocos (Keeling) Islands,factual,demo_template,6,25,Where is Cocos (Keeling) Islands located?,"Cocos (Keeling) Islands is located in Southeastern Asia, group of islands in the Indian Ocean, southwest of Indonesia, about halfway between Australia"
+Cocos (Keeling) Islands,descriptive,demo_template,7,24,Describe the climate of Cocos (Keeling) Islands.,"The climate of Cocos (Keeling) Islands is: tropical with high humidity, moderated by the southeast trade winds for about nine months of the year."
+Cocos (Keeling) Islands,factual,demo_template,8,23,What languages are spoken in Cocos (Keeling) Islands?,"Languages in Cocos (Keeling) Islands: Malay (Cocos dialect) 68.8%, English 22.3%, unspecified 8.9%; note - data represent language spoken at home (201"
+Cocos (Keeling) Islands,factual,demo_template,9,10,What type of government does Cocos (Keeling) Islands have?,Cocos (Keeling) Islands has a non-self-governing overseas territory of Australia.
+Colombia,factual,demo_template,6,6,What is the capital of Colombia?,The capital of Colombia is Bogotá.
+Colombia,factual,demo_template,4,25,Where is Colombia located?,"Colombia is located in Northern South America, bordering the Caribbean Sea, between Panama and Venezuela, and bordering the North Pacific Ocean, betwe"
+Colombia,descriptive,demo_template,5,14,Describe the climate of Colombia.,The climate of Colombia is: tropical along coast and eastern plains; cooler in highlands.
+Colombia,descriptive,demo_template,5,29,What economy does Colombia have?,"Economy of Colombia: prior to COVID-19, one of the most consistent growth economies; declining poverty; large stimulus package has mitigated economic "
+Colombia,factual,demo_template,6,16,What languages are spoken in Colombia?,"Languages in Colombia: Spanish (official) 98.9%, indigenous 1%, Portuguese 0.1%; 65 indigenous languages exist (2023 est.)."
+Colombia,factual,demo_template,7,5,What type of government does Colombia have?,Colombia has a presidential republic.
+Comoros,factual,demo_template,6,6,What is the capital of Comoros?,The capital of Comoros is Moroni.
+Comoros,factual,demo_template,4,28,Where is Comoros located?,"Comoros is located in Southern Africa, group of islands at the northern mouth of the Mozambique Channel, about two-thirds of the way between northern "
+Comoros,descriptive,demo_template,5,12,Describe the climate of Comoros.,The climate of Comoros is: tropical marine; rainy season (November to May).
+Comoros,descriptive,demo_template,5,28,What economy does Comoros have?,Economy of Comoros: small trade-based island economy; declining remittances; new structural and fiscal reforms; adverse cyclone and COVID-19 impacts; 
+Comoros,factual,demo_template,6,13,What languages are spoken in Comoros?,"Languages in Comoros: Arabic (official), French (official), Shikomoro (official; similar to Swahili), Comorian."
+Comoros,factual,demo_template,7,6,What type of government does Comoros have?,Comoros has a federal presidential republic.
+"Congo, Democratic Republic of the",factual,demo_template,10,10,"What is the capital of Congo, Democratic Republic of the?","The capital of Congo, Democratic Republic of the is Kinshasa."
+"Congo, Democratic Republic of the",factual,demo_template,8,13,"Where is Congo, Democratic Republic of the located?","Congo, Democratic Republic of the is located in Central Africa, northeast of Angola."
+"Congo, Democratic Republic of the",descriptive,demo_template,9,41,"Describe the climate of Congo, Democratic Republic of the.","The climate of Congo, Democratic Republic of the is: tropical; hot and humid in equatorial river basin; cooler and drier in southern highlands; cooler"
+"Congo, Democratic Republic of the",descriptive,demo_template,9,31,"What economy does Congo, Democratic Republic of the have?","Economy of Congo, Democratic Republic of the: very poor, large, natural resource-rich sub-Saharan country; possesses the world’s second largest rainfo"
+"Congo, Democratic Republic of the",factual,demo_template,10,22,"What languages are spoken in Congo, Democratic Republic of the?","Languages in Congo, Democratic Republic of the: French (official), Lingala (a trade language), Kingwana (a dialect of Kiswahili or Swahili), Kikongo, "
+"Congo, Democratic Republic of the",factual,demo_template,11,9,"What type of government does Congo, Democratic Republic of the have?","Congo, Democratic Republic of the has a semi-presidential republic."
+"Congo, Republic of the",factual,demo_template,9,9,"What is the capital of Congo, Republic of the?","The capital of Congo, Republic of the is Brazzaville."
+"Congo, Republic of the",factual,demo_template,7,18,"Where is Congo, Republic of the located?","Congo, Republic of the is located in Central Africa, bordering the South Atlantic Ocean, between Angola and Gabon."
+"Congo, Republic of the",descriptive,demo_template,8,30,"Describe the climate of Congo, Republic of the.","The climate of Congo, Republic of the is: tropical; rainy season (March to June); dry season (June to October); persistent high temperatures and humid"
+"Congo, Republic of the",descriptive,demo_template,8,33,"What economy does Congo, Republic of the have?","Economy of Congo, Republic of the: primarily an oil- and natural resources-based economy; recovery from mid-2010s oil devaluation has been slow and cu"
+"Congo, Republic of the",factual,demo_template,9,26,"What languages are spoken in Congo, Republic of the?","Languages in Congo, Republic of the: French (official), French Lingala and Monokutuba (trade languages), many local languages and dialects (of which K"
+"Congo, Republic of the",factual,demo_template,10,8,"What type of government does Congo, Republic of the have?","Congo, Republic of the has a presidential republic."
+Cook Islands,factual,demo_template,7,7,What is the capital of Cook Islands?,The capital of Cook Islands is Avarua.
+Cook Islands,factual,demo_template,5,21,Where is Cook Islands located?,"Cook Islands is located in Oceania, group of islands in the South Pacific Ocean, about halfway between Hawaii and New Zealand."
+Cook Islands,descriptive,demo_template,6,28,Describe the climate of Cook Islands.,The climate of Cook Islands is: tropical oceanic; moderated by trade winds; a dry season from April to November and a more humid season from December 
+Cook Islands,descriptive,demo_template,6,28,What economy does Cook Islands have?,Economy of Cook Islands: high-income self-governing New Zealand territorial economy; tourism-based activity but diversifying; severely curtailed by CO
+Cook Islands,factual,demo_template,7,17,What languages are spoken in Cook Islands?,"Languages in Cook Islands: English (official) 86.4%, Cook Islands Maori (Rarotongan) (official) 76.2%, other 8.3% (2011 est.)."
+Cook Islands,factual,demo_template,8,6,What type of government does Cook Islands have?,Cook Islands has a parliamentary democracy.
+Coral Sea Islands,factual,demo_template,6,15,Where is Coral Sea Islands located?,"Coral Sea Islands is located in Oceania, islands in the Coral Sea, northeast of Australia."
+Coral Sea Islands,descriptive,demo_template,7,8,Describe the climate of Coral Sea Islands.,The climate of Coral Sea Islands is: tropical.
+Costa Rica,factual,demo_template,7,8,What is the capital of Costa Rica?,The capital of Costa Rica is San José.
+Costa Rica,factual,demo_template,5,21,Where is Costa Rica located?,"Costa Rica is located in Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Nicaragua and Panama."
+Costa Rica,descriptive,demo_template,6,22,Describe the climate of Costa Rica.,The climate of Costa Rica is: tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands.
+Costa Rica,descriptive,demo_template,6,28,What economy does Costa Rica have?,"Economy of Costa Rica: trade-based upper middle-income economy; green economy leader, having reversed deforestation; investing in blue economy infrast"
+Costa Rica,factual,demo_template,7,7,What languages are spoken in Costa Rica?,"Languages in Costa Rica: Spanish (official), English."
+Costa Rica,factual,demo_template,8,6,What type of government does Costa Rica have?,Costa Rica has a presidential republic.
+Croatia,factual,demo_template,6,6,What is the capital of Croatia?,The capital of Croatia is Zagreb.
+Croatia,factual,demo_template,4,16,Where is Croatia located?,"Croatia is located in Southeastern Europe, bordering the Adriatic Sea, between Bosnia and Herzegovina and Slovenia."
+Croatia,descriptive,demo_template,5,23,Describe the climate of Croatia.,"The climate of Croatia is: Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers"
+Croatia,descriptive,demo_template,5,35,What economy does Croatia have?,"Economy of Croatia: tourism-based economy that was one of the hardest hit by COVID-19 economic disruptions; newest euro user since 2023, helping recov"
+Croatia,factual,demo_template,6,20,What languages are spoken in Croatia?,"Languages in Croatia: Croatian (official) 95.2%, Serbian 1.2%, other 3.1% (including Bosnian, Romani, Albanian, and Italian) unspecified 0.5% (2021 es"
+Croatia,factual,demo_template,7,5,What type of government does Croatia have?,Croatia has a parliamentary republic.
+Cuba,factual,demo_template,6,6,What is the capital of Cuba?,The capital of Cuba is Havana.
+Cuba,factual,demo_template,4,22,Where is Cuba located?,"Cuba is located in Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, 150 km south of Key West, Florida."
+Cuba,descriptive,demo_template,5,20,Describe the climate of Cuba.,The climate of Cuba is: tropical; moderated by trade winds; dry season (November to April); rainy season (May to October).
+Cuba,descriptive,demo_template,5,28,What economy does Cuba have?,"Economy of Cuba: still largely state-run planned economy, although privatization increasing under new constitution; widespread protests due to lack of"
+Cuba,factual,demo_template,6,5,What languages are spoken in Cuba?,Languages in Cuba: Spanish (official).
+Cuba,factual,demo_template,7,5,What type of government does Cuba have?,Cuba has a communist state.
+Curacao,factual,demo_template,6,6,What is the capital of Curacao?,The capital of Curacao is Willemstad.
+Curacao,factual,demo_template,4,18,Where is Curacao located?,"Curacao is located in Caribbean, an island in the Caribbean Sea, 55 km off the coast of Venezuela."
+Curacao,descriptive,demo_template,5,24,Describe the climate of Curacao.,"The climate of Curacao is: tropical marine climate, ameliorated by northeast trade winds, results in mild temperatures; semiarid with average rainfall"
+Curacao,descriptive,demo_template,5,26,What economy does Curacao have?,Economy of Curacao: high-income island economy; developed infrastructure; tourism and financial services-based economy; investing in information techn
+Curacao,factual,demo_template,6,36,What languages are spoken in Curacao?,"Languages in Curacao: Papiamento (official) (a creole language that is a mixture of Portuguese, Spanish, Dutch, English, and, to a lesser extent, Fren"
+Curacao,factual,demo_template,7,5,What type of government does Curacao have?,Curacao has a parliamentary democracy.
+Cyprus,factual,demo_template,6,7,What is the capital of Cyprus?,The capital of Cyprus is Nicosia (Lefkosia/Lefkosa).
+Cyprus,factual,demo_template,4,37,Where is Cyprus located?,"Cyprus is located in Middle East, island in the Mediterranean Sea, south of Turkey; note - Cyprus views itself as part of Europe; geopolitically, it c"
+Cyprus,descriptive,demo_template,5,14,Describe the climate of Cyprus.,"The climate of Cyprus is: temperate; Mediterranean with hot, dry summers and cool winters."
+Cyprus,descriptive,demo_template,5,29,What economy does Cyprus have?,"Economy of Cyprus: services-based, high-income EU island economy; heavy tourism; sustained growth between recovery of national banking system and COVI"
+Cyprus,factual,demo_template,6,27,What languages are spoken in Cyprus?,"Languages in Cyprus: Greek (official) 80.9%, Turkish (official) 0.2%, English 4.1%, Romanian 2.9%, Russian 2.5%, Bulgarian 2.2%, Arabic 1.2%, Filipino"
+Cyprus,factual,demo_template,7,22,What type of government does Cyprus have?,"Cyprus has a Republic of Cyprus - presidential republic; self-declared ""Turkish Republic of Northern Cyprus"" (TRNC) - parliamentary republic with enha"
+Czechia,factual,demo_template,6,6,What is the capital of Czechia?,The capital of Czechia is Prague.
+Czechia,factual,demo_template,4,12,Where is Czechia located?,"Czechia is located in Central Europe, between Germany, Poland, Slovakia, and Austria."
+Czechia,descriptive,demo_template,5,12,Describe the climate of Czechia.,"The climate of Czechia is: temperate; cool summers; cold, cloudy, humid winters."
+Czechia,descriptive,demo_template,5,25,What economy does Czechia have?,"Economy of Czechia: high-income, diversified EU economy; manufacturing-oriented exporter led by automotive industry; growth stalled by inflation and e"
+Czechia,factual,demo_template,6,14,What languages are spoken in Czechia?,"Languages in Czechia: Czech (official) 88.4%, Slovak 1.5%, other 2.6%, unspecified 7.2% (2021 est.)."
+Czechia,factual,demo_template,7,5,What type of government does Czechia have?,Czechia has a parliamentary republic.
+Denmark,factual,demo_template,6,6,What is the capital of Denmark?,The capital of Denmark is Copenhagen.
+Denmark,factual,demo_template,4,30,Where is Denmark located?,"Denmark is located in Northern Europe, bordering the Baltic Sea and the North Sea, on a peninsula north of Germany (Jutland); also includes several ma"
+Denmark,descriptive,demo_template,5,15,Describe the climate of Denmark.,"The climate of Denmark is: temperate; humid and overcast; mild, windy winters and cool summers."
+Denmark,descriptive,demo_template,5,31,What economy does Denmark have?,"Economy of Denmark: high-income, EU member, trade-oriented Nordic economy; growth driven by pharmaceuticals, energy and services; large share of emplo"
+Denmark,factual,demo_template,6,20,What languages are spoken in Denmark?,"Languages in Denmark: Danish, Faroese, Greenlandic (an Inuit dialect), German (small minority); note - English is the predominant second language."
+Denmark,factual,demo_template,7,6,What type of government does Denmark have?,Denmark has a parliamentary constitutional monarchy.
+Djibouti,factual,demo_template,6,6,What is the capital of Djibouti?,The capital of Djibouti is Djibouti.
+Djibouti,factual,demo_template,4,19,Where is Djibouti located?,"Djibouti is located in Eastern Africa, bordering the Gulf of Aden and the Red Sea, between Eritrea and Somalia."
+Djibouti,descriptive,demo_template,5,8,Describe the climate of Djibouti.,"The climate of Djibouti is: desert; torrid, dry."
+Djibouti,descriptive,demo_template,5,29,What economy does Djibouti have?,Economy of Djibouti: food import-dependent Horn of Africa economy driven by various national military bases and port-based trade; fairly resilient fro
+Djibouti,factual,demo_template,6,9,What languages are spoken in Djibouti?,"Languages in Djibouti: French (official), Arabic (official), Somali, Afar."
+Djibouti,factual,demo_template,7,5,What type of government does Djibouti have?,Djibouti has a presidential republic.
+Dominica,factual,demo_template,6,6,What is the capital of Dominica?,The capital of Dominica is Roseau.
+Dominica,factual,demo_template,4,24,Where is Dominica located?,"Dominica is located in Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, about halfway between Puerto Rico and Trinidad and To"
+Dominica,descriptive,demo_template,5,13,Describe the climate of Dominica.,The climate of Dominica is: tropical; moderated by northeast trade winds; heavy rainfall.
+Dominica,descriptive,demo_template,5,26,What economy does Dominica have?,Economy of Dominica: highly agrarian OECS island economy; ECCU-member state; large banana exporter; improved oversight of its citizenship-by-investmen
+Dominica,factual,demo_template,6,7,What languages are spoken in Dominica?,"Languages in Dominica: English (official), French patois."
+Dominica,factual,demo_template,7,5,What type of government does Dominica have?,Dominica has a parliamentary republic.
+Dominican Republic,factual,demo_template,7,8,What is the capital of Dominican Republic?,The capital of Dominican Republic is Santo Domingo.
+Dominican Republic,factual,demo_template,5,25,Where is Dominican Republic located?,"Dominican Republic is located in Caribbean, eastern two-thirds of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, ea"
+Dominican Republic,descriptive,demo_template,6,16,Describe the climate of Dominican Republic.,The climate of Dominican Republic is: tropical maritime; little seasonal temperature variation; seasonal variation in rainfall.
+Dominican Republic,descriptive,demo_template,6,28,What economy does Dominican Republic have?,"Economy of Dominican Republic: surging middle-income tourism, construction, mining, and telecommunications OECS economy; major foreign US direct inves"
+Dominican Republic,factual,demo_template,7,6,What languages are spoken in Dominican Republic?,Languages in Dominican Republic: Spanish (official).
+Dominican Republic,factual,demo_template,8,6,What type of government does Dominican Republic have?,Dominican Republic has a presidential republic.
+Ecuador,factual,demo_template,4,18,Where is Ecuador located?,"Ecuador is located in Western South America, bordering the Pacific Ocean at the Equator, between Colombia and Peru."
+Ecuador,descriptive,demo_template,5,19,Describe the climate of Ecuador.,"The climate of Ecuador is: tropical along coast, becoming cooler inland at higher elevations; tropical in Amazonian jungle lowlands."
+Ecuador,descriptive,demo_template,5,29,What economy does Ecuador have?,Economy of Ecuador: highly informal South American economy; USD currency user; major banana exporter; hard hit by COVID-19; macroeconomic fragility fr
+Ecuador,factual,demo_template,6,24,What languages are spoken in Ecuador?,"Languages in Ecuador: Spanish (Castilian; official) 98.6%, indigenous 3.9% (Quechua 3.2%, other indigenous 0.7%), foreign 2.8%, other 0.6% (includes E"
+Ecuador,factual,demo_template,7,5,What type of government does Ecuador have?,Ecuador has a presidential republic.
+Egypt,factual,demo_template,4,29,Where is Egypt located?,"Egypt is located in Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes t"
+Egypt,descriptive,demo_template,5,12,Describe the climate of Egypt.,"The climate of Egypt is: desert; hot, dry summers with moderate winters."
+Egypt,descriptive,demo_template,5,27,What economy does Egypt have?,"Economy of Egypt: Africa’s second-largest economy; 2030 Vision to diversify markets and energy infrastructure; improving fiscal, external, and current"
+Egypt,factual,demo_template,6,13,What languages are spoken in Egypt?,Languages in Egypt: Arabic (official); English and French widely understood by educated classes.
+Egypt,factual,demo_template,7,5,What type of government does Egypt have?,Egypt has a presidential republic.
+El Salvador,factual,demo_template,7,8,What is the capital of El Salvador?,The capital of El Salvador is San Salvador.
+El Salvador,factual,demo_template,5,16,Where is El Salvador located?,"El Salvador is located in Central America, bordering the North Pacific Ocean, between Guatemala and Honduras."
+El Salvador,descriptive,demo_template,6,23,Describe the climate of El Salvador.,The climate of El Salvador is: tropical; rainy season (May to October); dry season (November to April); tropical on coast; temperate in uplands.
+El Salvador,descriptive,demo_template,6,28,What economy does El Salvador have?,Economy of El Salvador: growth-challenged Central American economy buttressed via remittances; dense labor force; fairly aggressive COVID-19 stimulus 
+El Salvador,factual,demo_template,7,10,What languages are spoken in El Salvador?,"Languages in El Salvador: Spanish (official), Nawat (among some indigenous)."
+El Salvador,factual,demo_template,8,6,What type of government does El Salvador have?,El Salvador has a presidential republic.
+Equatorial Guinea,factual,demo_template,7,31,What is the capital of Equatorial Guinea?,"The capital of Equatorial Guinea is Malabo; note - Malabo is on the island of Bioko; some months of the year, the government operates out of Bata on t"
+Equatorial Guinea,factual,demo_template,5,16,Where is Equatorial Guinea located?,"Equatorial Guinea is located in Central Africa, bordering the Bight of Biafra, between Cameroon and Gabon."
+Equatorial Guinea,descriptive,demo_template,6,10,Describe the climate of Equatorial Guinea.,"The climate of Equatorial Guinea is: tropical; always hot, humid."
+Equatorial Guinea,descriptive,demo_template,6,31,What economy does Equatorial Guinea have?,Economy of Equatorial Guinea: growing CEMAC economy and new OPEC member; large oil and gas reserves; targeting economic diversification and poverty re
+Equatorial Guinea,factual,demo_template,7,23,What languages are spoken in Equatorial Guinea?,"Languages in Equatorial Guinea: Spanish (official) 67.6%, other (includes Fang, Bubi, Portuguese (official), French (official), Fa d'Ambo spoken in An"
+Equatorial Guinea,factual,demo_template,8,6,What type of government does Equatorial Guinea have?,Equatorial Guinea has a presidential republic.
+Eritrea,factual,demo_template,6,6,What is the capital of Eritrea?,The capital of Eritrea is Asmara.
+Eritrea,factual,demo_template,4,14,Where is Eritrea located?,"Eritrea is located in Eastern Africa, bordering the Red Sea, between Djibouti and Sudan."
+Eritrea,descriptive,demo_template,5,37,Describe the climate of Eritrea.,"The climate of Eritrea is: hot, dry desert strip along Red Sea coast; cooler and wetter in the central highlands (up to 61 cm of rainfall annually, he"
+Eritrea,descriptive,demo_template,5,31,What economy does Eritrea have?,Economy of Eritrea: largely agrarian economy with a significant mining sector; substantial fiscal surplus due to tight controls; high and vulnerable d
+Eritrea,factual,demo_template,6,15,What languages are spoken in Eritrea?,"Languages in Eritrea: Tigrinya (official), Arabic (official), English (official), Tigre, Kunama, Afar, other Cushitic languages."
+Eritrea,factual,demo_template,7,5,What type of government does Eritrea have?,Eritrea has a presidential republic.
+Estonia,factual,demo_template,6,6,What is the capital of Estonia?,The capital of Estonia is Tallinn.
+Estonia,factual,demo_template,4,18,Where is Estonia located?,"Estonia is located in Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia."
+Estonia,descriptive,demo_template,5,11,Describe the climate of Estonia.,"The climate of Estonia is: maritime; wet, moderate winters, cool summers."
+Estonia,descriptive,demo_template,5,33,What economy does Estonia have?,"Economy of Estonia: advanced, service-based EU and eurozone economy; economic downturn due to inflation, trade, and energy impacts of Ukraine war; dec"
+Estonia,factual,demo_template,6,13,What languages are spoken in Estonia?,"Languages in Estonia: Estonian (official) 67.2%, Russian 28.5%, other 3.7%, unspecified 0.6% (2021est.)."
+Estonia,factual,demo_template,7,5,What type of government does Estonia have?,Estonia has a parliamentary republic.
+Eswatini,factual,demo_template,6,13,What is the capital of Eswatini?,The capital of Eswatini is Mbabane (administrative capital); Lobamba (royal and legislative capital).
+Eswatini,factual,demo_template,4,11,Where is Eswatini located?,"Eswatini is located in Southern Africa, between Mozambique and South Africa."
+Eswatini,descriptive,demo_template,5,11,Describe the climate of Eswatini.,The climate of Eswatini is: varies from tropical to near temperate.
+Eswatini,descriptive,demo_template,5,29,What economy does Eswatini have?,Economy of Eswatini: landlocked southern African economy; South African trade dependent and currency pegging; CMA and SACU member state; COVID-19 econ
+Eswatini,factual,demo_template,6,11,What languages are spoken in Eswatini?,"Languages in Eswatini: English (official, used for government business), siSwati (official)."
+Eswatini,factual,demo_template,7,5,What type of government does Eswatini have?,Eswatini has a absolute monarchy.
+Ethiopia,factual,demo_template,6,7,What is the capital of Ethiopia?,The capital of Ethiopia is Addis Ababa.
+Ethiopia,factual,demo_template,4,9,Where is Ethiopia located?,"Ethiopia is located in Eastern Africa, west of Somalia."
+Ethiopia,descriptive,demo_template,5,11,Describe the climate of Ethiopia.,The climate of Ethiopia is: tropical monsoon with wide topographic-induced variation.
+Ethiopia,descriptive,demo_template,5,29,What economy does Ethiopia have?,"Economy of Ethiopia: low-income, fast-growing Horn of Africa economy; widespread poverty and food insecurity worsened by conflict and environmental fa"
+Ethiopia,factual,demo_template,6,26,What languages are spoken in Ethiopia?,"Languages in Ethiopia: Oromo (official regional working language) 33.8%, Amharic (official national language) 29.3%, Somali (official regional working"
+Ethiopia,factual,demo_template,7,6,What type of government does Ethiopia have?,Ethiopia has a federal parliamentary republic.
+Falkland Islands (Islas Malvinas),factual,demo_template,9,9,What is the capital of Falkland Islands (Islas Malvinas)?,The capital of Falkland Islands (Islas Malvinas) is Stanley.
+Falkland Islands (Islas Malvinas),factual,demo_template,7,23,Where is Falkland Islands (Islas Malvinas) located?,"Falkland Islands (Islas Malvinas) is located in Southern South America, islands in the South Atlantic Ocean, about 500 km east of southern Argentina."
+Falkland Islands (Islas Malvinas),descriptive,demo_template,8,42,Describe the climate of Falkland Islands (Islas Malvinas).,"The climate of Falkland Islands (Islas Malvinas) is: cold marine; strong westerly winds, cloudy, humid; rain occurs on more than half of days in year;"
+Falkland Islands (Islas Malvinas),descriptive,demo_template,8,30,What economy does Falkland Islands (Islas Malvinas) have?,Economy of Falkland Islands (Islas Malvinas): British South American territorial economy; longstanding fishing industry; surging tourism prior to COVI
+Falkland Islands (Islas Malvinas),factual,demo_template,9,14,What languages are spoken in Falkland Islands (Islas Malvinas)?,"Languages in Falkland Islands (Islas Malvinas): English 89%, Spanish 7.7%, other 3.3% (2006 est.)."
+Falkland Islands (Islas Malvinas),factual,demo_template,10,16,What type of government does Falkland Islands (Islas Malvinas) have?,Falkland Islands (Islas Malvinas) has a parliamentary democracy (Legislative Assembly); self-governing overseas territory of the UK.
+Faroe Islands,factual,demo_template,7,7,What is the capital of Faroe Islands?,The capital of Faroe Islands is Torshavn.
+Faroe Islands,factual,demo_template,5,24,Where is Faroe Islands located?,"Faroe Islands is located in Northern Europe, island group between the Norwegian Sea and the North Atlantic Ocean, about halfway between Iceland and No"
+Faroe Islands,descriptive,demo_template,6,14,Describe the climate of Faroe Islands.,"The climate of Faroe Islands is: mild winters, cool summers; usually overcast; foggy, windy."
+Faroe Islands,descriptive,demo_template,6,32,What economy does Faroe Islands have?,Economy of Faroe Islands: high-income Danish territorial economy; party neither to the EU nor the Schengen Area; associate Nordic Council member; very
+Faroe Islands,factual,demo_template,7,16,What languages are spoken in Faroe Islands?,"Languages in Faroe Islands: Faroese 93.8% (derived from Old Norse), Danish 3.2%, other 3% (2011 est.)."
+Faroe Islands,factual,demo_template,8,14,What type of government does Faroe Islands have?,Faroe Islands has a parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark.
+Fiji,factual,demo_template,6,9,What is the capital of Fiji?,The capital of Fiji is Suva (on Viti Levu).
+Fiji,factual,demo_template,4,22,Where is Fiji located?,"Fiji is located in Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand."
+Fiji,descriptive,demo_template,5,12,Describe the climate of Fiji.,The climate of Fiji is: tropical marine; only slight seasonal temperature variation.
+Fiji,descriptive,demo_template,5,26,What economy does Fiji have?,"Economy of Fiji: upper-middle income, tourism-based Pacific island economy; susceptible to ocean rises; key energy and infrastructure investments; pos"
+Fiji,factual,demo_template,6,10,What languages are spoken in Fiji?,"Languages in Fiji: English (official), iTaukei (official), Fiji Hindi (official)."
+Fiji,factual,demo_template,7,5,What type of government does Fiji have?,Fiji has a parliamentary republic.
+Finland,factual,demo_template,6,6,What is the capital of Finland?,The capital of Finland is Helsinki.
+Finland,factual,demo_template,4,21,Where is Finland located?,"Finland is located in Northern Europe, bordering the Baltic Sea, Gulf of Bothnia, and Gulf of Finland, between Sweden and Russia."
+Finland,descriptive,demo_template,5,28,Describe the climate of Finland.,"The climate of Finland is: cold temperate; potentially subarctic but comparatively mild because of moderating influence of the North Atlantic Current,"
+Finland,descriptive,demo_template,5,28,What economy does Finland have?,"Economy of Finland: high-income, export-based EU and eurozone economy; major timber, metals, engineering, telecom, and electronics industries; emergin"
+Finland,factual,demo_template,6,15,What languages are spoken in Finland?,"Languages in Finland: Finnish (official) 85.9%, Swedish (official) 5.2%, Russian 1.7%, other 7.2% (2022 est.)."
+Finland,factual,demo_template,7,5,What type of government does Finland have?,Finland has a parliamentary republic.
+France,descriptive,demo_template,5,27,What economy does France have?,"Economy of France: high-income, advanced EU economy and eurozone member; strong tourism, aircraft manufacturing, pharmaceuticals, and industrial secto"
+France,factual,demo_template,6,20,What languages are spoken in France?,"Languages in France: French (official) 100%, declining regional dialects and languages (Provencal, Breton, Alsatian, Corsican, Catalan, Basque, Flemis"
+France,factual,demo_template,7,5,What type of government does France have?,France has a semi-presidential republic.
+French Polynesia,factual,demo_template,7,10,What is the capital of French Polynesia?,The capital of French Polynesia is Papeete (located on Tahiti).
+French Polynesia,factual,demo_template,5,31,Where is French Polynesia located?,"French Polynesia is located in Oceania, five archipelagoes (Archipel des Tuamotu, Iles Gambier, Iles Marquises, Iles Tubuai, Society Islands) in the S"
+French Polynesia,descriptive,demo_template,6,9,Describe the climate of French Polynesia.,"The climate of French Polynesia is: tropical, but moderate."
+French Polynesia,descriptive,demo_template,6,25,What economy does French Polynesia have?,"Economy of French Polynesia: small, territorial-island tourism-based economy; large French financing; lower EU import duties; Pacific Islands Forum me"
+French Polynesia,factual,demo_template,7,20,What languages are spoken in French Polynesia?,"Languages in French Polynesia: French (official) 73.5%, Tahitian 20.1%, Marquesan 2.6%, Austral languages 1.2%, Paumotu 1%, other 1.6% (2017 est.)."
+French Polynesia,factual,demo_template,8,15,What type of government does French Polynesia have?,French Polynesia has a parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France.
+French Southern and Antarctic Lands,factual,demo_template,8,38,Where is French Southern and Antarctic Lands located?,"French Southern and Antarctic Lands is located in southeast and east of Africa, islands in the southern Indian Ocean, some near Madagascar and others "
+French Southern and Antarctic Lands,descriptive,demo_template,9,16,What economy does French Southern and Antarctic Lands have?,"Economy of French Southern and Antarctic Lands: very small, fishing-based, domestic economic activity; military base servicing."
+Gabon,factual,demo_template,6,6,What is the capital of Gabon?,The capital of Gabon is Libreville.
+Gabon,factual,demo_template,4,21,Where is Gabon located?,"Gabon is located in Central Africa, bordering the Atlantic Ocean at the Equator, between Republic of the Congo and Equatorial Guinea."
+Gabon,descriptive,demo_template,5,9,Describe the climate of Gabon.,"The climate of Gabon is: tropical; always hot, humid."
+Gabon,descriptive,demo_template,5,26,What economy does Gabon have?,"Economy of Gabon: natural-resource-rich, upper-middle-income, Central African economy; significant reliance on oil and mineral exports; highly urbaniz"
+Gabon,factual,demo_template,6,10,What languages are spoken in Gabon?,"Languages in Gabon: French (official), Fang, Myene, Nzebi, Bapounou/Eschira, Bandjabi."
+Gabon,factual,demo_template,7,5,What type of government does Gabon have?,Gabon has a presidential republic.
+"Gambia, The",factual,demo_template,7,7,"What is the capital of Gambia, The?","The capital of Gambia, The is Banjul."
+"Gambia, The",factual,demo_template,5,14,"Where is Gambia, The located?","Gambia, The is located in Western Africa, bordering the North Atlantic Ocean and Senegal."
+"Gambia, The",descriptive,demo_template,6,19,"Describe the climate of Gambia, The.","The climate of Gambia, The is: tropical; hot, rainy season (June to November); cooler, dry season (November to May)."
+"Gambia, The",descriptive,demo_template,6,28,"What economy does Gambia, The have?","Economy of Gambia, The: low-income West African economy; agriculture-dominant; high poverty rate; heightened inflation; dependent on foreign assistanc"
+"Gambia, The",factual,demo_template,7,12,"What languages are spoken in Gambia, The?","Languages in Gambia, The: English (official), Mandinka, Wolof, Fula, other indigenous vernaculars."
+"Gambia, The",factual,demo_template,8,6,"What type of government does Gambia, The have?","Gambia, The has a presidential republic."
+Gaza Strip,factual,demo_template,5,15,Where is Gaza Strip located?,"Gaza Strip is located in Middle East, bordering the Mediterranean Sea, between Egypt and Israel."
+Gaza Strip,descriptive,demo_template,6,15,Describe the climate of Gaza Strip.,"The climate of Gaza Strip is: temperate, mild winters, dry and warm to hot summers."
+Gaza Strip,factual,demo_template,7,13,What languages are spoken in Gaza Strip?,"Languages in Gaza Strip: Arabic, Hebrew (spoken by many Palestinians), English (widely understood)."
+Georgia,factual,demo_template,6,6,What is the capital of Georgia?,The capital of Georgia is Tbilisi.
+Georgia,factual,demo_template,4,36,Where is Georgia located?,"Georgia is located in Southwestern Asia, bordering the Black Sea, between Turkey and Russia, with a sliver of land north of the Caucasus extending int"
+Georgia,descriptive,demo_template,5,13,Describe the climate of Georgia.,The climate of Georgia is: warm and pleasant; Mediterranean-like on Black Sea coast.
+Georgia,descriptive,demo_template,5,29,What economy does Georgia have?,"Economy of Georgia: upper-middle income, fast-growing South Caucasus economy; regionally focused exporter of cars, metal ores, and energy; financial a"
+Georgia,factual,demo_template,6,23,What languages are spoken in Georgia?,"Languages in Georgia: Georgian (official) 87.6%, Azeri 6.2%, Armenian 3.9%, Russian 1.2%, other 1% (including Abkhaz, the official language in Abkhazi"
+Georgia,factual,demo_template,7,5,What type of government does Georgia have?,Georgia has a semi-presidential republic.
+Germany,factual,demo_template,6,6,What is the capital of Germany?,The capital of Germany is Berlin.
+Germany,factual,demo_template,4,22,Where is Germany located?,"Germany is located in Central Europe, bordering the Baltic Sea and the North Sea, between the Netherlands and Poland, south of Denmark."
+Germany,descriptive,demo_template,5,19,Describe the climate of Germany.,"The climate of Germany is: temperate and marine; cool, cloudy, wet winters and summers; occasional warm mountain (foehn) wind."
+Germany,descriptive,demo_template,5,30,What economy does Germany have?,"Economy of Germany: leading export-driven, core EU and eurozone economy; key automotive, chemical, engineering, finance, and green energy industries; "
+Germany,factual,demo_template,6,31,What languages are spoken in Germany?,"Languages in Germany: German (official); note - Danish, Frisian, Sorbian, and Romani are official minority languages; Low German, Danish, North Frisia"
+Germany,factual,demo_template,7,6,What type of government does Germany have?,Germany has a federal parliamentary republic.
+Ghana,factual,demo_template,4,16,Where is Ghana located?,"Ghana is located in Western Africa, bordering the Gulf of Guinea, between Cote d'Ivoire and Togo."
+Ghana,descriptive,demo_template,5,23,Describe the climate of Ghana.,The climate of Ghana is: tropical; warm and comparatively dry along southeast coast; hot and humid in southwest; hot and dry in north.
+Ghana,descriptive,demo_template,5,30,What economy does Ghana have?,"Economy of Ghana: West African lower-middle income economy; major gold, oil and cocoa exporter; macroeconomic challenges following nearly four decades"
+Ghana,factual,demo_template,6,29,What languages are spoken in Ghana?,"Languages in Ghana: Asante 16%, Ewe 14%, Fante 11.6%, Boron (Brong) 4.9%, Dagomba 4.4%, Dangme 4.2%, Dagarte (Dagaba) 3.9%, Kokomba 3.5%, Akyem 3.2%, "
+Ghana,factual,demo_template,7,5,What type of government does Ghana have?,Ghana has a presidential republic.
+Gibraltar,factual,demo_template,6,6,What is the capital of Gibraltar?,The capital of Gibraltar is Gibraltar.
+Gibraltar,factual,demo_template,4,27,Where is Gibraltar located?,"Gibraltar is located in Southwestern Europe, bordering the Strait of Gibraltar, which links the Mediterranean Sea and the North Atlantic Ocean, on the"
+Gibraltar,descriptive,demo_template,5,12,Describe the climate of Gibraltar.,The climate of Gibraltar is: Mediterranean with mild winters and warm summers.
+Gibraltar,descriptive,demo_template,5,27,What economy does Gibraltar have?,"Economy of Gibraltar: British territorial high-income economy; Brexit caused significant economic disruption to longstanding financial services, shipp"
+Gibraltar,factual,demo_template,6,14,What languages are spoken in Gibraltar?,"Languages in Gibraltar: English (used in schools and for official purposes), Spanish, Italian, Portuguese."
+Gibraltar,factual,demo_template,7,12,What type of government does Gibraltar have?,Gibraltar has a parliamentary democracy (Parliament); self-governing overseas territory of the UK.
+Greece,factual,demo_template,6,6,What is the capital of Greece?,The capital of Greece is Athens.
+Greece,factual,demo_template,4,20,Where is Greece located?,"Greece is located in Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey."
+Greece,descriptive,demo_template,5,12,Describe the climate of Greece.,"The climate of Greece is: temperate; mild, wet winters; hot, dry summers."
+Greece,descriptive,demo_template,5,29,What economy does Greece have?,"Economy of Greece: high-income EU and eurozone economy; growth above euro average, supported by private consumption and EU fund investments; structura"
+Greece,factual,demo_template,6,12,What languages are spoken in Greece?,"Languages in Greece: Greek (official) 99%, other (includes English and French) 1%."
+Greece,factual,demo_template,7,5,What type of government does Greece have?,Greece has a parliamentary republic.
+Greenland,factual,demo_template,4,20,Where is Greenland located?,"Greenland is located in Northern North America, island between the Arctic Ocean and the North Atlantic Ocean, northeast of Canada."
+Greenland,descriptive,demo_template,5,12,Describe the climate of Greenland.,"The climate of Greenland is: arctic to subarctic; cool summers, cold winters."
+Greenland,descriptive,demo_template,5,28,What economy does Greenland have?,Economy of Greenland: large self-governing Danish territorial economy; preferential EU market access; high-income economy; dependent on Danish financi
+Greenland,factual,demo_template,6,6,What languages are spoken in Greenland?,"Languages in Greenland: Greenlandic, Danish, English."
+Greenland,factual,demo_template,7,10,What type of government does Greenland have?,Greenland has a parliamentary democracy (Parliament of Greenland or Inatsisartut).
+Grenada,factual,demo_template,6,7,What is the capital of Grenada?,The capital of Grenada is Saint George's.
+Grenada,factual,demo_template,4,18,Where is Grenada located?,"Grenada is located in Caribbean, island between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago."
+Grenada,descriptive,demo_template,5,11,Describe the climate of Grenada.,The climate of Grenada is: tropical; tempered by northeast trade winds.
+Grenada,descriptive,demo_template,5,28,What economy does Grenada have?,"Economy of Grenada: small OECS service-based economy; large tourism, construction, transportation, and education sectors; major spice exporter; shrink"
+Grenada,factual,demo_template,6,7,What languages are spoken in Grenada?,"Languages in Grenada: English (official), French patois."
+Grenada,factual,demo_template,7,12,What type of government does Grenada have?,Grenada has a parliamentary democracy under a constitutional monarchy; a Commonwealth realm.
+Guam,factual,demo_template,6,7,What is the capital of Guam?,The capital of Guam is Hagatna (Agana).
+Guam,factual,demo_template,4,21,Where is Guam located?,"Guam is located in Oceania, island in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines."
+Guam,descriptive,demo_template,5,30,Describe the climate of Guam.,"The climate of Guam is: tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (Jul"
+Guam,descriptive,demo_template,5,28,What economy does Guam have?,"Economy of Guam: small Pacific island US territorial economy; upper income, tourism-based economy; hard-hit by COVID-19 disruptions; relaunched many i"
+Guam,factual,demo_template,6,19,What languages are spoken in Guam?,"Languages in Guam: English 43.3%, Filipino 24.9%, Chamorro 16%, other Pacific Island languages 9.4%, Asian languages 6.5% (2020 est.)."
+Guam,factual,demo_template,7,24,What type of government does Guam have?,"Guam has a unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive,"
+Guatemala,factual,demo_template,6,7,What is the capital of Guatemala?,The capital of Guatemala is Guatemala City.
+Guatemala,factual,demo_template,4,28,Where is Guatemala located?,"Guatemala is located in Central America, bordering the North Pacific Ocean, between El Salvador and Mexico, and bordering the Gulf of Honduras (Caribb"
+Guatemala,descriptive,demo_template,5,13,Describe the climate of Guatemala.,"The climate of Guatemala is: tropical; hot, humid in lowlands; cooler in highlands."
+Guatemala,descriptive,demo_template,5,28,What economy does Guatemala have?,Economy of Guatemala: developing Central American economy; steady economic growth fueled by remittances; high poverty and income inequality; limited g
+Guatemala,factual,demo_template,6,31,What languages are spoken in Guatemala?,"Languages in Guatemala: Spanish (official) 69.9%, Maya languages 29.7% (Q'eqchi' 8.3%, K'iche 7.8%, Mam 4.4%, Kaqchikel 3%, Q'anjob'al 1.2%, Poqomchi'"
+Guatemala,factual,demo_template,7,5,What type of government does Guatemala have?,Guatemala has a presidential republic.
+Guernsey,factual,demo_template,6,8,What is the capital of Guernsey?,The capital of Guernsey is Saint Peter Port.
+Guernsey,factual,demo_template,4,14,Where is Guernsey located?,"Guernsey is located in Western Europe, islands in the English Channel, northwest of France."
+Guernsey,descriptive,demo_template,5,18,Describe the climate of Guernsey.,The climate of Guernsey is: temperate with mild winters and cool summers; about 50% of days are overcast.
+Guernsey,descriptive,demo_template,5,28,What economy does Guernsey have?,"Economy of Guernsey: high-income English Channel island economy; strong financial sector but stressed due to COVID-19 disruptions; manufacturing, tour"
+Guernsey,factual,demo_template,6,11,What languages are spoken in Guernsey?,"Languages in Guernsey: English, French, Norman-French dialect spoken in country districts."
+Guernsey,factual,demo_template,7,8,What type of government does Guernsey have?,Guernsey has a parliamentary democracy (States of Deliberation).
+Guinea,factual,demo_template,6,6,What is the capital of Guinea?,The capital of Guinea is Conakry.
+Guinea,factual,demo_template,4,16,Where is Guinea located?,"Guinea is located in Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Sierra Leone."
+Guinea,descriptive,demo_template,5,27,Describe the climate of Guinea.,The climate of Guinea is: generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to Ma
+Guinea,descriptive,demo_template,5,30,What economy does Guinea have?,Economy of Guinea: growing but primarily agrarian West African economy; major mining sector; improving fiscal and debt balances prior to COVID-19; eco
+Guinea,factual,demo_template,6,11,What languages are spoken in Guinea?,"Languages in Guinea: French (official), Pular, Maninka, Susu, other native languages."
+Guinea,factual,demo_template,7,5,What type of government does Guinea have?,Guinea has a presidential republic.
+Guinea-Bissau,factual,demo_template,6,6,What is the capital of Guinea-Bissau?,The capital of Guinea-Bissau is Bissau.
+Guinea-Bissau,factual,demo_template,4,15,Where is Guinea-Bissau located?,"Guinea-Bissau is located in Western Africa, bordering the North Atlantic Ocean, between Guinea and Senegal."
+Guinea-Bissau,descriptive,demo_template,5,28,Describe the climate of Guinea-Bissau.,The climate of Guinea-Bissau is: tropical; generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry seaso
+Guinea-Bissau,descriptive,demo_template,5,28,What economy does Guinea-Bissau have?,Economy of Guinea-Bissau: extremely poor West African economy; ethnically diverse labor force; increasing government expenditures; slight inflation du
+Guinea-Bissau,factual,demo_template,6,20,What languages are spoken in Guinea-Bissau?,"Languages in Guinea-Bissau: Portuguese-based Creole, Portuguese (official; largely used as a second or third language), Pular (a Fula language), Mandi"
+Guinea-Bissau,factual,demo_template,7,5,What type of government does Guinea-Bissau have?,Guinea-Bissau has a semi-presidential republic.
+Guyana,factual,demo_template,6,6,What is the capital of Guyana?,The capital of Guyana is Georgetown.
+Guyana,factual,demo_template,4,16,Where is Guyana located?,"Guyana is located in Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela."
+Guyana,descriptive,demo_template,5,22,Describe the climate of Guyana.,"The climate of Guyana is: tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)."
+Guyana,descriptive,demo_template,5,28,What economy does Guyana have?,"Economy of Guyana: small, hydrocarbon-driven South American export economy; major forest coverage being leveraged in carbon credit offsets to encourag"
+Guyana,factual,demo_template,6,26,What languages are spoken in Guyana?,"Languages in Guyana: English (official), Guyanese Creole, Amerindian languages (including Caribbean and Arawak languages), Indian languages (including"
+Guyana,factual,demo_template,7,5,What type of government does Guyana have?,Guyana has a parliamentary republic.

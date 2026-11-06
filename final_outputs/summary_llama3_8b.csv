@@ -1,0 +1,5 @@
+Sistem,EM,F1,Hallucination_Rate,Avg_Latency_s,Avg_Tokens/s,Avg_Mem_Spike_MB,Total_Cost_USD,RAM_GB,VRAM_MB,HE_relevance,HE_faithfulness,HE_fluency
+llama3_8b — B_Base_LLM,0.0,0.4707,0.125,4.389,6.71,0.0,0.0171,3.31,5326.71,4.28,3.32,3.98
+llama3_8b — D_RAG+Base,0.0,0.4396,0.1,4.213,5.82,0.0,0.0164,3.31,5326.71,4.25,3.18,3.98
+llama3_8b — C_FT_NoRAG,0.0,0.4707,0.125,4.386,6.72,0.0,0.0171,3.31,5326.71,4.28,3.32,3.98
+llama3_8b — E_RAG+FT,0.0,0.4396,0.1,4.219,5.82,0.0,0.0164,3.31,5326.71,4.25,3.18,3.98

@@ -1,0 +1,3 @@
+Sistem,EM,F1,Hallucination_Rate,Avg_Latency_s,Avg_Tokens/s,Avg_Mem_Spike_MB,Total_Cost_USD,RAM_GB,VRAM_MB,HE_relevance,HE_faithfulness,HE_fluency
+Gemini Flash — No RAG,0.0,0.0279,0,0.0,0,0,0,0,0,1.77,1.3,4.0
+Gemini Flash — RAG,0.0,0.0279,0,0.0,0,0,0,0,0,1.77,1.3,4.0

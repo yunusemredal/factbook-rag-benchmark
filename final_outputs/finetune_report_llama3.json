@@ -1,0 +1,27 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "method": "QLoRA (4-bit, nf4)",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "train_examples": 2971,
+  "val_examples": 331,
+  "total_qa_pairs": 3302,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": "2 (grad_accum=4)",
+  "max_seq_length": 512,
+  "warmup_ratio": 0.05,
+  "training_time_min": 108.1,
+  "gpu_hours": 1.8,
+  "estimated_cost_usd": 0.63,
+  "final_train_loss": 0.5142,
+  "hardware": "Kaggle 2xT4 GPU",
+  "framework": "transformers + peft + trl",
+  "adapter_path": "./final_finetuned/llama3"
+}

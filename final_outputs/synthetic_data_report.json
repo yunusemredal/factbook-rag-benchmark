@@ -1,0 +1,19 @@
+{
+  "total_generated": 542,
+  "after_filtering": 542,
+  "removed": 0,
+  "unique_countries": 98,
+  "type_distribution": {
+    "factual": 357,
+    "descriptive": 185
+  },
+  "avg_q_length_words": 5.9,
+  "avg_a_length_words": 17.0,
+  "generation_method": "demo_template",
+  "estimated_cost_usd": 0.0,
+  "output_files": {
+    "raw": "synthetic_qa_pairs.jsonl",
+    "analysis": "synthetic_qa_analysis.csv",
+    "training": "synthetic_training_data.jsonl"
+  }
+}

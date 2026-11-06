@@ -1,0 +1,29 @@
+{
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "method": "QLoRA (4-bit, nf4)",
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "target_modules": [
+    "qkv_proj",
+    "o_proj",
+    "gate_up_proj",
+    "down_proj"
+  ],
+  "completion_only": true,
+  "train_examples": 2971,
+  "val_examples": 331,
+  "total_qa_pairs": 3302,
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": "2 (grad_accum=4)",
+  "max_seq_length": 512,
+  "warmup_ratio": 0.05,
+  "training_time_min": 210.9,
+  "gpu_hours": 3.52,
+  "estimated_cost_usd": 1.23,
+  "final_train_loss": 2.4809,
+  "hardware": "Kaggle 2xT4 GPU",
+  "framework": "transformers + peft + trl",
+  "adapter_path": "./final_finetuned/phi35",
+  "note": "Phi-3.5-mini icin target_modules=['qkv_proj','o_proj'] kullanildi."
+}

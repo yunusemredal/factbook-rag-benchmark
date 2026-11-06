@@ -1,0 +1,3 @@
+Model,Kategori,Soru,Cevap,OOD,Reddetme,Dogru_Reddetme,Halucinasyon,Latency
+mistral_7b,paraphrase,Tell me the capital of France.,"France does not have a capital city mentioned in the provided context. The context only mentions the location of the US embassy in Paris, which is one of the cities in France.",False,False,False,False,10.027
+mistral_7b,ood,What is the capital of Mars?,"I don't know. The context provided is about the capitals of Libya (Tripoli), Bulgaria (Sofia), San Marino (San Marino), and Turkey (Ankara), not Mars.",True,True,True,False,12.105

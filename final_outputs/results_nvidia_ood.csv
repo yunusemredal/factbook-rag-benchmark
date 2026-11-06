@@ -1,0 +1,11 @@
+Model,Soru,Cevap,Reddetme,Halucinasyon,Latency
+nvidia_llama31_8b,What is the capital of Mars?,I don't know.,True,False,0.305
+nvidia_llama31_8b,What is the population of Atlantis?,I don't know.,True,False,0.282
+nvidia_llama31_8b,Who won the FIFA World Cup 2022?,"Qatar hosted the FIFA Men's World Cup in 2022, but the context does not mention the winner of the tournament.",False,True,0.56
+nvidia_llama31_8b,What is the recipe for chocolate cake?,I don't know.,True,False,0.287
+nvidia_llama31_8b,Explain quantum computing in simple terms.,I don't know.,True,False,0.554
+nvidia_mistral_7b,What is the capital of Mars?,"API Hatasi: Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': ""Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'Gt18tzmzaNPMPkOgTblFOTXWTknKD4dyeFb-7d4q_AA'""}",False,True,0.0
+nvidia_mistral_7b,What is the population of Atlantis?,"API Hatasi: Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': ""Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'Gt18tzmzaNPMPkOgTblFOTXWTknKD4dyeFb-7d4q_AA'""}",False,True,0.0
+nvidia_mistral_7b,Who won the FIFA World Cup 2022?,"API Hatasi: Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': ""Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'Gt18tzmzaNPMPkOgTblFOTXWTknKD4dyeFb-7d4q_AA'""}",False,True,0.0
+nvidia_mistral_7b,What is the recipe for chocolate cake?,"API Hatasi: Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': ""Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'Gt18tzmzaNPMPkOgTblFOTXWTknKD4dyeFb-7d4q_AA'""}",False,True,0.0
+nvidia_mistral_7b,Explain quantum computing in simple terms.,"API Hatasi: Error code: 404 - {'status': 404, 'title': 'Not Found', 'detail': ""Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account 'Gt18tzmzaNPMPkOgTblFOTXWTknKD4dyeFb-7d4q_AA'""}",False,True,0.0

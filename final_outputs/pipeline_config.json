@@ -1,0 +1,40 @@
+{
+  "best_collection": "final_e5_base_hierarchical",
+  "best_top_k": 15,
+  "best_emb_key": "e5_base",
+  "best_chunk_key": "hierarchical",
+  "best_threshold": "None",
+  "best_hit_rate": 1.0,
+  "best_mrr": 0.8222,
+  "total_eval_q": 120,
+  "total_collections": 12,
+  "embedding_models": {
+    "e5_base": "intfloat/e5-base-v2",
+    "bge_base": "BAAI/bge-base-en-v1.5",
+    "gte_base": "thenlper/gte-base",
+    "multilingual_mpnet": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  },
+  "chunking_strategies": [
+    "sliding_window",
+    "sentence_based",
+    "hierarchical"
+  ],
+  "top_k_values": [
+    1,
+    7,
+    15
+  ],
+  "thresholds": [
+    "None",
+    "0.5",
+    "0.7",
+    "0.9"
+  ],
+  "reranking_available": false,
+  "rerank_hit_rate": null,
+  "chroma_dir": "./chroma_db_final",
+  "data_file": "/kaggle/input/datasets/yunusemredal/cfbook/countries.json",
+  "seed": 42,
+  "total_runtime_min": 33.5,
+  "ft_dir": "./final_finetuned"
+}

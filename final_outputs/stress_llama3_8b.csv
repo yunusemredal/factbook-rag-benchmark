@@ -1,0 +1,3 @@
+Model,Kategori,Soru,Cevap,OOD,Reddetme,Dogru_Reddetme,Halucinasyon,Latency
+llama3_8b,paraphrase,Tell me the capital of France.,The capital of France is Paris.,False,False,False,False,1.762
+llama3_8b,ood,What is the capital of Mars?,I don't know.,True,True,True,False,1.511

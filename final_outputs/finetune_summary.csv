@@ -1,0 +1,4 @@
+Model,Method,Train_Examples,Epochs,Learning_Rate,Train_Time_Min,GPU_Hours,Cost_USD,Final_Loss
+meta-llama/Meta-Llama-3-8B-Instruct,"QLoRA (4-bit, nf4)",2971,3,0.0002,108.1,1.8,0.63,0.5142
+microsoft/Phi-3.5-mini-instruct,"QLoRA (4-bit, nf4)",2971,3,0.0002,210.9,3.52,1.23,2.4809
+Qwen/Qwen2.5-3B-Instruct,"QLoRA (4-bit, nf4)",2971,3,0.0002,58.8,0.98,0.34,0.6721

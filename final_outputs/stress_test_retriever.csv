@@ -1,0 +1,22 @@
+Kategori,Soru,Beklenen Ulke,Cekilen Ulkeler,Dogru Bulundu,OOD
+paraphrase,Tell me the capital of France.,France,"France, Saint Pierre and Miquelon, Saint Barthelemy",True,False
+paraphrase,Which city serves as Germany's seat of government?,Germany,"Germany, Germany, Germany",True,False
+paraphrase,Can you tell me how many people live in Japan?,Japan,"Japan, Japan, Japan",True,False
+paraphrase,I'd like to know about the weather patterns in Brazil.,Brazil,"Christmas Island, Brazil, Brazil",True,False
+paraphrase,Describe the geographical landscape and terrain of Switzerland.,Switzerland,"Switzerland, Liechtenstein, Switzerland",True,False
+multi_hop,What is the capital of the country that borders both China and India in South Asia?,Nepal,"Nepal, India, India",True,False
+multi_hop,Which languages are spoken in the most populous country in Africa?,Nigeria,"Central African Republic, Congo, Republic of the, Namibia",False,False
+multi_hop,What is the economic overview of the European country that has the largest area?,France,"San Marino, Lithuania, Monaco",False,False
+ambiguous,What is Georgia known for?,Georgia,"Georgia, Georgia, Georgia",True,False
+ambiguous,Tell me about Turkey's natural resources.,Turkey,"Turkey (Turkiye), Turkey (Turkiye), Turkey (Turkiye)",False,False
+ambiguous,What kind of place is Jordan?,Jordan,"Jordan, Jordan, Jordan",True,False
+long_noisy,I am a student doing extensive research and after reading many contradictory sources online about European nations and t,France,"France, France, France",True,False
+long_noisy,Despite all the noise and misinformation I have encountered in various articles and social media posts today about Asian,Japan,"Japan, Japan, Taiwan",True,False
+long_noisy,Setting aside all the irrelevant political commentary and unrelated historical events that keep appearing in my search r,Brazil,"Brazil, Bolivia, Uruguay",True,False
+long_noisy,"After wading through a lot of confusing and contradictory information about African governments, legal systems, and econ",Nigeria,"Nigeria, Nigeria, Nigeria",True,False
+long_noisy,"I have been reading about climate patterns, meteorology, oceanic currents, El Nino effects, and many other weather-relat",Australia,"Australia, Christmas Island, Nauru",True,False
+ood,What is the capital of Mars?,,"Holy See (Vatican City), Azerbaijan, Malta",False,True
+ood,What is the population of Atlantis?,,"Midway Islands, Anguilla, Kingman Reef",False,True
+ood,Who won the FIFA World Cup 2022?,,"Qatar, Qatar, Paraguay",False,True
+ood,What is the recipe for chocolate cake?,,"Baker Island, Grenada, Christmas Island",False,True
+ood,Explain quantum computing in simple terms.,,"United States, Israel, Antarctica",False,True

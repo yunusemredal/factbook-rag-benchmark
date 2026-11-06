@@ -1,0 +1,22 @@
+Model,Kategori,Soru,Cevap,OOD,Reddetme,Dogru_Reddetme,Halucinasyon,Latency
+qwen_3b,paraphrase,Tell me the capital of France.,Capital of France: Paris.,False,False,False,False,1.386
+qwen_3b,paraphrase,Which city serves as Germany's seat of government?,The seat of government of Germany is Berlin.,False,False,False,False,1.744
+qwen_3b,paraphrase,Can you tell me how many people live in Japan?,"How many people live in Japan? Total population is 123,201,945.",False,False,False,False,3.992
+qwen_3b,paraphrase,I'd like to know about the weather patterns in Brazil.,"The weather patterns of Brazil are: mostly tropical, but temperate in south.",False,False,False,False,3.035
+qwen_3b,paraphrase,Describe the geographical landscape and terrain of Switzerland.,"geographical landscape and terrain: mostly mountains (Alps in south, Jura in northwest) with a central plateau of rolling hills, plains, and large lakes.",False,False,False,False,5.726
+qwen_3b,multi_hop,What is the capital of the country that borders both China and India in South Asia?,The capital of the country that borders both China and India in South Asia is Kathmandu.,False,False,False,False,3.466
+qwen_3b,multi_hop,Which languages are spoken in the most populous country in Africa?,"The most populous country in Africa speaks French (official), Sangho (lingua franca and national language), tribal languages.",False,False,False,False,4.161
+qwen_3b,multi_hop,What is the economic overview of the European country that has the largest area?,"the economic overview of the European country that has the largest area is: high-income, non-EU European economy; surrounded by Italy, which is the dominant importer and exporter; open border to EU an",False,False,False,False,10.118
+qwen_3b,ambiguous,What is Georgia known for?,"Georgia is known for its agricultural land, particularly arable land, and its Mediterranean-like climate on the Black Sea coast.",False,False,False,False,4.273
+qwen_3b,ambiguous,Tell me about Turkey's natural resources.,"Turkey's natural resources include: coal, iron ore, copper, lead, zinc, chromite, manganese, nickel, gypsum, salt, timber, hydropower.",False,False,False,False,5.836
+qwen_3b,ambiguous,What kind of place is Jordan?,"Jordan is a parliamentary constitutional monarchy; it has a mixed legal system based on French law, British common law, and Islamic law.",False,False,False,False,4.597
+qwen_3b,long_noisy,I am a student doing extensive research and after reading many contradictory sources online about European nations and t,"The official capital city of France, the country in Western Europe, is Paris.",False,False,False,False,2.969
+qwen_3b,long_noisy,Despite all the noise and misinformation I have encountered in various articles and social media posts today about Asian,"The total population count of Japan is 123,201,945.",False,False,False,False,3.773
+qwen_3b,long_noisy,Setting aside all the irrelevant political commentary and unrelated historical events that keep appearing in my search r,"Geography of Brazil: mostly flat to rolling lowlands in north; some plains, hills, mountains, and narrow coastal belt; Amazon Basin in far west.",False,False,False,False,5.519
+qwen_3b,long_noisy,"After wading through a lot of confusing and contradictory information about African governments, legal systems, and econ","Nigeria, the most populous African country, currently has a presidential republic form of government.",False,False,False,False,3.234
+qwen_3b,long_noisy,"I have been reading about climate patterns, meteorology, oceanic currents, El Nino effects, and many other weather-relat",Concise description of climate in Australia: generally arid to semiarid; temperate in south and east; tropical in north.,False,False,False,False,4.805
+qwen_3b,ood,What is the capital of Mars?,I don't know.,True,True,True,False,1.214
+qwen_3b,ood,What is the population of Atlantis?,I don't know.,True,True,True,False,1.088
+qwen_3b,ood,Who won the FIFA World Cup 2022?,The answer cannot be determined from the given context.,True,False,False,True,1.868
+qwen_3b,ood,What is the recipe for chocolate cake?,I don't know.,True,True,True,False,1.103
+qwen_3b,ood,Explain quantum computing in simple terms.,I don't know.,True,True,True,False,1.122
