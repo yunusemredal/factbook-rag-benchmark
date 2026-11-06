@@ -2,11 +2,13 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4%2B-ee4c2c.svg)](https://pytorch.org/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)](https://huggingface.co/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://factbook-rag-benchmark.streamlit.app/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Inference%20API-yellow.svg)](https://huggingface.co/)
 [![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-green.svg)](https://www.trychroma.com/)
 [![FAISS](https://img.shields.io/badge/VectorDB-FAISS-lightgrey.svg)](https://github.com/facebookresearch/faiss)
 [![QLoRA](https://img.shields.io/badge/Fine--Tuning-4--bit%20QLoRA-purple.svg)](https://github.com/artidoro/qlora)
 
+> 🚀 **Canlı Demo:** CIA World Factbook verileri üzerinde çalışan interaktif RAG asistanını Streamlit üzerinden hemen deneyebilirsiniz: [factbook-rag-benchmark.streamlit.app](https://factbook-rag-benchmark.streamlit.app/)  
 > **Domain:** Countries of the World (CIA World Factbook — 258 Ülke)  
 > **Lokal Modeller:** Qwen 2.5 3B, LLaMA-3 8B, Phi-3.5-mini, Gemma-2 2B, Mistral-7B  
 > **API Modelleri:** Google Gemini 1.5 Flash, NVIDIA NIM API (LLaMA-3.1-8B, Mistral-7B)  
@@ -244,11 +246,23 @@ python src/Final_Comparison.py
 
 ---
 
-## 🧪 8. Kod Doğrulama ve Testler
+## 🌐 8. Canlı Web Demo (Streamlit)
 
-Depodaki tüm modüllerin syntax bütünlüğü, veri seti tutarlılığı ve metrik hesaplama fonksiyonları otomatik testlerle doğrulanmıştır. Testleri çalıştırmak için:
+Projenin 258 ülke üzerinde semantik arama yapan interaktif soru-cevap asistanı **Streamlit Community Cloud** üzerinde canlı olarak yayınlanmaktadır:
+
+- **Canlı Web Demosu:** [factbook-rag-benchmark.streamlit.app](https://factbook-rag-benchmark.streamlit.app/)
+- **Yerel Olarak Çalıştırmak İçin:**
+  ```bash
+  streamlit run streamlit_app.py
+  ```
+
+---
+
+## 🧪 9. Kod Doğrulama ve Testler
+
+Depodaki tüm modüllerin syntax bütünlüğü, veri seti tutarlılığı ve metrik hesaplama fonksiyonları test edilmiştir. Sözdizimi kontrolü için:
 ```bash
-python -m unittest scratch/test_suite.py
+python -m py_compile src/*.py
 ```
 
 ---
