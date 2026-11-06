@@ -1,0 +1,90 @@
+{
+  "paraphrase": [
+    {
+      "question": "Tell me the capital of France.",
+      "expected_country": "France",
+      "expected_key": "Government: Capital - name"
+    },
+    {
+      "question": "Which city serves as Germany's seat of government?",
+      "expected_country": "Germany",
+      "expected_key": "Government: Capital - name"
+    },
+    {
+      "question": "Can you tell me how many people live in Japan?",
+      "expected_country": "Japan",
+      "expected_key": "People and Society: Population - total"
+    },
+    {
+      "question": "I'd like to know about the weather patterns in Brazil.",
+      "expected_country": "Brazil",
+      "expected_key": "Geography: Climate"
+    },
+    {
+      "question": "Describe the geographical landscape and terrain of Switzerland.",
+      "expected_country": "Switzerland",
+      "expected_key": "Geography: Terrain"
+    }
+  ],
+  "multi_hop": [
+    {
+      "question": "What is the capital of the country that borders both China and India in South Asia?",
+      "expected_country": "Nepal",
+      "expected_key": "Government: Capital - name"
+    },
+    {
+      "question": "Which languages are spoken in the most populous country in Africa?",
+      "expected_country": "Nigeria",
+      "expected_key": "People and Society: Languages"
+    },
+    {
+      "question": "What is the economic overview of the European country that has the largest area?",
+      "expected_country": "France",
+      "expected_key": "Economy: Economic overview"
+    }
+  ],
+  "ambiguous": [
+    {
+      "question": "What is Georgia known for?",
+      "expected_country": "Georgia",
+      "expected_key": ""
+    },
+    {
+      "question": "Tell me about Turkey's natural resources.",
+      "expected_country": "Turkey",
+      "expected_key": "Geography: Natural resources"
+    },
+    {
+      "question": "What kind of place is Jordan?",
+      "expected_country": "Jordan",
+      "expected_key": ""
+    }
+  ],
+  "ood": [
+    {
+      "question": "What is the capital of Mars?",
+      "expected_country": "",
+      "expected_key": ""
+    },
+    {
+      "question": "What is the population of Atlantis?",
+      "expected_country": "",
+      "expected_key": ""
+    },
+    {
+      "question": "Who won the FIFA World Cup 2022?",
+      "expected_country": "",
+      "expected_key": ""
+    },
+    {
+      "question": "What is the recipe for chocolate cake?",
+      "expected_country": "",
+      "expected_key": ""
+    },
+    {
+      "question": "Explain quantum computing in simple terms.",
+      "expected_country": "",
+      "expected_key": ""
+    }
+  ]
+}

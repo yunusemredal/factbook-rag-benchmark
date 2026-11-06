@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "q_001",
+    "question": "When did South Sudan gain its independence?",
+    "ground_truth": "9 July 2011 (from Sudan)",
+    "metadata": {
+      "country": "South Sudan",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_002",
+    "question": "What is the climate like in Botswana?",
+    "ground_truth": "semiarid; warm winters and hot summers",
+    "metadata": {
+      "country": "Botswana",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_003",
+    "question": "What are the primary agricultural products of Namibia?",
+    "ground_truth": "root vegetables, milk, maize, beef, grapes, onions, wheat, fruits, pulses, vegetables (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Namibia",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_004",
+    "question": "Where is Nigeria located?",
+    "ground_truth": "Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon",
+    "metadata": {
+      "country": "Nigeria",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_005",
+    "question": "What is the climate like in Jersey?",
+    "ground_truth": "temperate; mild winters and cool summers",
+    "metadata": {
+      "country": "Jersey",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_006",
+    "question": "Describe the terrain of Gambia, The.",
+    "ground_truth": "flood plain of the Gambia River flanked by some low hills",
+    "metadata": {
+      "country": "Gambia, The",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_007",
+    "question": "Provide a brief economic overview of Curacao.",
+    "ground_truth": "high-income island economy; developed infrastructure; tourism and financial services-based economy; investing in information technology incentives; oil refineries service Venezuela and China; unique COVID-19 stimulus support applied to government debts rather than household support",
+    "metadata": {
+      "country": "Curacao",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_008",
+    "question": "Where is Tuvalu located?",
+    "ground_truth": "Oceania, island group consisting of nine coral atolls in the South Pacific Ocean, about half way from Hawaii to Australia",
+    "metadata": {
+      "country": "Tuvalu",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_009",
+    "question": "What are the major religions practiced in Cook Islands?",
+    "ground_truth": "Protestant 55% (Cook Islands Christian Church 43.1%, Seventh Day Adventist 8.3%, Assemblies of God 3.6%), Roman Catholic 16.7%, Church of Jesus Christ 3.9%, Jehovah's Witness 2.2%, Apostolic Church 2.1%, other 4.5%, none/unspecified 15.6% (2021 est.)",
+    "metadata": {
+      "country": "Cook Islands",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_010",
+    "question": "What are the primary agricultural products of Comoros?",
+    "ground_truth": "bananas, coconuts, cassava, yams, maize, taro, milk, tomatoes, sweet potatoes, pulses (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Comoros",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_011",
+    "question": "What is the climate like in New Caledonia?",
+    "ground_truth": "tropical; modified by southeast trade winds; hot, humid",
+    "metadata": {
+      "country": "New Caledonia",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_012",
+    "question": "Provide a brief economic overview of Papua New Guinea.",
+    "ground_truth": "lower middle-income Pacific island economy; primarily informal agrarian sector; natural resource-rich; key liquified natural gas exporter; growing young workforce; slow post-pandemic recovery; increasingly impoverished citizenry; sustainable inflation",
+    "metadata": {
+      "country": "Papua New Guinea",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_013",
+    "question": "What is the total population of Hong Kong?",
+    "ground_truth": "7,297,821",
+    "metadata": {
+      "country": "Hong Kong",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_014",
+    "question": "What is the total population of Suriname?",
+    "ground_truth": "646,758",
+    "metadata": {
+      "country": "Suriname",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_015",
+    "question": "When did Falkland Islands (Islas Malvinas) gain its independence?",
+    "ground_truth": "none (overseas territory of the UK; also claimed by Argentina)",
+    "metadata": {
+      "country": "Falkland Islands (Islas Malvinas)",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_016",
+    "question": "Describe the terrain of Bulgaria.",
+    "ground_truth": "mostly mountains with lowlands in north and southeast",
+    "metadata": {
+      "country": "Bulgaria",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_017",
+    "question": "Provide a brief economic overview of India.",
+    "ground_truth": "largest South Asian economy; strong, sustained GDP growth led by technology and service sectors, foreign investment, and improved regulatory framework; high poverty rate and income inequality; initiatives on infrastructure development, digitization, manufacturing, and financial access",
+    "metadata": {
+      "country": "India",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_018",
+    "question": "What is the total population of Burundi?",
+    "ground_truth": "13,590,102",
+    "metadata": {
+      "country": "Burundi",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_019",
+    "question": "What is the climate like in Grenada?",
+    "ground_truth": "tropical; tempered by northeast trade winds",
+    "metadata": {
+      "country": "Grenada",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_020",
+    "question": "What is the total population of Japan?",
+    "ground_truth": "123,201,945",
+    "metadata": {
+      "country": "Japan",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_021",
+    "question": "What is the climate like in Cuba?",
+    "ground_truth": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_022",
+    "question": "Where is Lebanon located?",
+    "ground_truth": "Middle East, bordering the Mediterranean Sea, between Israel and Syria",
+    "metadata": {
+      "country": "Lebanon",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_023",
+    "question": "What is the climate like in Maldives?",
+    "ground_truth": "tropical; hot, humid; dry, northeast monsoon (November to March); rainy, southwest monsoon (June to August)",
+    "metadata": {
+      "country": "Maldives",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_024",
+    "question": "Provide a brief economic overview of Kyrgyzstan.",
+    "ground_truth": "landlocked, lower-middle-income Central Asian economy; natural resource rich; growing hydroelectricity and tourism; high remittances; corruption limits investment; COVID-19 and political turmoil hurt GDP, limited public revenues, and increased spending",
+    "metadata": {
+      "country": "Kyrgyzstan",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_025",
+    "question": "Where is Bhutan located?",
+    "ground_truth": "Southern Asia, between China and India",
+    "metadata": {
+      "country": "Bhutan",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_026",
+    "question": "What are the major religions practiced in Samoa?",
+    "ground_truth": "Protestant 54.9% (Congregationalist 29%, Methodist 12.4%, Assembly of God 6.8%, Seventh Day Adventist 4.4%, other Protestant 2.3%), Roman Catholic 18.8%, Church of Jesus Christ 16.9%, Worship Centre 2.8%, other Christian 3.6%, other 2.9% (includes Baha'i, Muslim), none 0.2% (2016 est.)",
+    "metadata": {
+      "country": "Samoa",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_027",
+    "question": "Describe the terrain of Ghana.",
+    "ground_truth": "mostly low plains with dissected plateau in south-central area",
+    "metadata": {
+      "country": "Ghana",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_028",
+    "question": "Provide a brief economic overview of Tunisia.",
+    "ground_truth": "lower middle-income North African economy; drafting reforms for foreign lenders; high unemployment, especially for youth and women; hit hard by COVID-19; high public sector wages; high public debt; protectionist austerity measures; key EU trade partner",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_029",
+    "question": "What are the primary agricultural products of Niue?",
+    "ground_truth": "coconuts, taro, fruits, sweet potatoes, tropical fruits, yams, vegetables, lemons/limes, bananas, pork (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Niue",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_030",
+    "question": "What is the capital city of Norfolk Island?",
+    "ground_truth": "Kingston",
+    "metadata": {
+      "country": "Norfolk Island",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_031",
+    "question": "What is the climate like in Antigua and Barbuda?",
+    "ground_truth": "tropical maritime; little seasonal temperature variation",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_032",
+    "question": "What is the capital city of Saint Helena, Ascension, and Tristan da Cunha?",
+    "ground_truth": "Jamestown",
+    "metadata": {
+      "country": "Saint Helena, Ascension, and Tristan da Cunha",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_033",
+    "question": "What are the primary agricultural products of Djibouti?",
+    "ground_truth": "vegetables, beans, milk, beef, camel milk, lemons/limes, goat meat, lamb/mutton, tomatoes, beef offal (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Djibouti",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_034",
+    "question": "What are the major religions practiced in Israel?",
+    "ground_truth": "Jewish 73.5%, Muslim 18.1%, Christian 1.9%, Druze 1.6%, other 4.9% (2022 est.)",
+    "metadata": {
+      "country": "Israel",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_035",
+    "question": "What are the major religions practiced in Sweden?",
+    "ground_truth": "Church of Sweden (Lutheran) 53.9%, other (includes Roman Catholic, Orthodox, Baptist, Muslim, Jewish, and Buddhist) 8.9%, none or unspecified 37.2% (2021 est.)",
+    "metadata": {
+      "country": "Sweden",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_036",
+    "question": "What is the capital city of Guyana?",
+    "ground_truth": "Georgetown",
+    "metadata": {
+      "country": "Guyana",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_037",
+    "question": "What is the total population of Taiwan?",
+    "ground_truth": "23,595,274",
+    "metadata": {
+      "country": "Taiwan",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_038",
+    "question": "Where is Korea, North located?",
+    "ground_truth": "Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea",
+    "metadata": {
+      "country": "Korea, North",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_039",
+    "question": "Provide a brief economic overview of Brunei.",
+    "ground_truth": "almost exclusively an oil and gas economy; high income country; expansive and robust welfare system; the majority of the population works for the government; promulgating a nationalized halal brand; considering establishment of a bond market and stock exchange",
+    "metadata": {
+      "country": "Brunei",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_040",
+    "question": "What is the capital city of Pakistan?",
+    "ground_truth": "Islamabad",
+    "metadata": {
+      "country": "Pakistan",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_041",
+    "question": "What is the capital city of Turkmenistan?",
+    "ground_truth": "Ashgabat (Ashkhabad)",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_042",
+    "question": "What is the total population of Turkmenistan?",
+    "ground_truth": "5,744,151",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_043",
+    "question": "Where is Turkmenistan located?",
+    "ground_truth": "Central Asia, bordering the Caspian Sea, between Iran and Kazakhstan",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_044",
+    "question": "What is the climate like in Turkmenistan?",
+    "ground_truth": "subtropical desert",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_auto_045",
+    "question": "Describe the terrain of Turkmenistan.",
+    "ground_truth": "flat-to-rolling sandy desert with dunes rising to mountains in the south; low mountains along border with Iran; borders Caspian Sea in west",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_046",
+    "question": "Provide a brief economic overview of Turkmenistan.",
+    "ground_truth": "upper middle-income Central Asian economy; has 10% of global natural gas reserves, exporting to Russia and China; natural resource rich; authoritarian and dominated by state-owned enterprises; major central-south Asian pipeline development",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_047",
+    "question": "What are the major religions practiced in Turkmenistan?",
+    "ground_truth": "Muslim 93%, Christian 6.4%, Buddhist <1%, folk religion <1%, Jewish <1%, other <1%, unspecified <1% (2020 est.)",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_048",
+    "question": "What are the primary agricultural products of Turkmenistan?",
+    "ground_truth": "milk, wheat, potatoes, cotton, watermelons, tomatoes, grapes, barley, beef, lamb/mutton (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_049",
+    "question": "When did Turkmenistan gain its independence?",
+    "ground_truth": "27 October 1991 (from the Soviet Union)",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_050",
+    "question": "What type of government does Turkmenistan have?",
+    "ground_truth": "presidential republic; authoritarian",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_051",
+    "question": "What languages are spoken in Turkmenistan?",
+    "ground_truth": "Turkmen (official) 72%, Russian 12%, Uzbek 9%, other 7%",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_052",
+    "question": "What are the natural resources of Turkmenistan?",
+    "ground_truth": "petroleum, natural gas, sulfur, salt",
+    "metadata": {
+      "country": "Turkmenistan",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_053",
+    "question": "What is the capital city of Antigua and Barbuda?",
+    "ground_truth": "Saint John's",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_054",
+    "question": "What is the total population of Antigua and Barbuda?",
+    "ground_truth": "102,634",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_055",
+    "question": "Where is Antigua and Barbuda located?",
+    "ground_truth": "Caribbean, islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_056",
+    "question": "Describe the terrain of Antigua and Barbuda.",
+    "ground_truth": "mostly low-lying limestone and coral islands, with some higher volcanic areas",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_057",
+    "question": "Provide a brief economic overview of Antigua and Barbuda.",
+    "ground_truth": "dual island-tourism and construction-driven economy; emerging “blue economy”; limited water supply and susceptibility to hurricanes limit activity; improving road infrastructure; friendly to foreign direct investment; looking at financial innovation in cryptocurrency and blockchain technologies",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_058",
+    "question": "What are the major religions practiced in Antigua and Barbuda?",
+    "ground_truth": "Protestant 68.3% (Anglican 17.6%, Seventh Day Adventist 12.4%, Pentecostal 12.2%, Moravian 8.3%, Methodist 5.6%, Wesleyan Holiness 4.5%, Church of God 4.1%, Baptist 3.6%), Roman Catholic 8.2%, other 12.2%, unspecified 5.5%, none 5.9% (2011 est.)",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_059",
+    "question": "What are the primary agricultural products of Antigua and Barbuda?",
+    "ground_truth": "tropical fruits, milk, mangoes/guavas, eggs, lemons/limes, pumpkins/squash, sweet potatoes, vegetables, cucumbers/gherkins, yams (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_060",
+    "question": "When did Antigua and Barbuda gain its independence?",
+    "ground_truth": "1 November 1981 (from the UK)",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_061",
+    "question": "What type of government does Antigua and Barbuda have?",
+    "ground_truth": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_062",
+    "question": "What languages are spoken in Antigua and Barbuda?",
+    "ground_truth": "English (official), Antiguan Creole (an English-based creole)",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_063",
+    "question": "What are the natural resources of Antigua and Barbuda?",
+    "ground_truth": "NEGL; pleasant climate fosters tourism",
+    "metadata": {
+      "country": "Antigua and Barbuda",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_064",
+    "question": "What is the capital city of Honduras?",
+    "ground_truth": "Tegucigalpa; note - article eight of the Honduran constitution states that the twin cities of Tegucigalpa and Comayaguela, jointly, constitute the capital of the Republic of Honduras; however, virtually all governmental institutions are on the Tegucigalpa side, which in practical terms makes Tegucigalpa the capital",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_065",
+    "question": "What is the total population of Honduras?",
+    "ground_truth": "9,529,188",
+    "metadata": {
+      "country": "Honduras",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_066",
+    "question": "Where is Honduras located?",
+    "ground_truth": "Central America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the Gulf of Fonseca (North Pacific Ocean), between El Salvador and Nicaragua",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_067",
+    "question": "What is the climate like in Honduras?",
+    "ground_truth": "subtropical in lowlands, temperate in mountains",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_auto_068",
+    "question": "Describe the terrain of Honduras.",
+    "ground_truth": "mostly mountains in interior, narrow coastal plains",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_069",
+    "question": "Provide a brief economic overview of Honduras.",
+    "ground_truth": "second-fastest-growing Central American economy; COVID-19 and two hurricanes crippled activity; high poverty and inequality; declining-but-still-high violent crime disruption; systemic corruption; coffee and banana exporter; enormous remittances",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_070",
+    "question": "What are the major religions practiced in Honduras?",
+    "ground_truth": "Evangelical 55%, Roman Catholic 33.4%, none 10.1%, unspecified 1.5% (2023 est.)",
+    "metadata": {
+      "country": "Honduras",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_071",
+    "question": "What are the primary agricultural products of Honduras?",
+    "ground_truth": "sugarcane, oil palm fruit, maize, milk, bananas, coffee, cantaloupes/melons, oranges, chicken, beans (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_072",
+    "question": "When did Honduras gain its independence?",
+    "ground_truth": "15 September 1821 (from Spain)",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_073",
+    "question": "What type of government does Honduras have?",
+    "ground_truth": "presidential republic",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_074",
+    "question": "What languages are spoken in Honduras?",
+    "ground_truth": "Spanish (official), Amerindian dialects",
+    "metadata": {
+      "country": "Honduras",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_075",
+    "question": "What are the natural resources of Honduras?",
+    "ground_truth": "timber, gold, silver, copper, lead, zinc, iron ore, antimony, coal, fish, hydropower",
+    "metadata": {
+      "country": "Honduras",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_076",
+    "question": "What is the capital city of Cuba?",
+    "ground_truth": "Havana",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_077",
+    "question": "What is the total population of Cuba?",
+    "ground_truth": "10,966,038",
+    "metadata": {
+      "country": "Cuba",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_078",
+    "question": "Where is Cuba located?",
+    "ground_truth": "Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, 150 km south of Key West, Florida",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_079",
+    "question": "Describe the terrain of Cuba.",
+    "ground_truth": "mostly flat to rolling plains, with rugged hills and mountains in the southeast",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_080",
+    "question": "Provide a brief economic overview of Cuba.",
+    "ground_truth": "still largely state-run planned economy, although privatization increasing under new constitution; widespread protests due to lack of basic necessities and electricity; massive foreign investment increases recently; known tobacco exporter; unique oil-for-doctors relationship with Venezuela; widespread corruption",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_081",
+    "question": "What are the major religions practiced in Cuba?",
+    "ground_truth": "Christian 58.9%, folk religion 17.6%, Buddhist <1%, Hindu <1%, Jewish <1%, Muslim <1%, other <1%, none 23.2% (2020 est.)",
+    "metadata": {
+      "country": "Cuba",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_082",
+    "question": "What are the primary agricultural products of Cuba?",
+    "ground_truth": "sugarcane, cassava, plantains, vegetables, mangoes/guavas, milk, tomatoes, pumpkins/squash, sweet potatoes, bananas (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_083",
+    "question": "When did Cuba gain its independence?",
+    "ground_truth": "20 May 1902 (from Spain 10 December 1898; administered by the US from 1898 to 1902); not acknowledged by the Cuban Government as a day of independence",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_084",
+    "question": "What type of government does Cuba have?",
+    "ground_truth": "communist state",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_085",
+    "question": "What languages are spoken in Cuba?",
+    "ground_truth": "Spanish (official)",
+    "metadata": {
+      "country": "Cuba",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_086",
+    "question": "What are the natural resources of Cuba?",
+    "ground_truth": "cobalt, nickel, iron ore, chromium, copper, salt, timber, silica, petroleum, arable land",
+    "metadata": {
+      "country": "Cuba",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_087",
+    "question": "What is the capital city of Andorra?",
+    "ground_truth": "Andorra la Vella",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_088",
+    "question": "What is the total population of Andorra?",
+    "ground_truth": "85,370",
+    "metadata": {
+      "country": "Andorra",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_089",
+    "question": "Where is Andorra located?",
+    "ground_truth": "Southwestern Europe, Pyrenees mountains, on the border between France and Spain",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_090",
+    "question": "What is the climate like in Andorra?",
+    "ground_truth": "temperate; snowy, cold winters and warm, dry summers",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_auto_091",
+    "question": "Describe the terrain of Andorra.",
+    "ground_truth": "rugged mountains dissected by narrow valleys",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_092",
+    "question": "Provide a brief economic overview of Andorra.",
+    "ground_truth": "high GDP; low unemployment; non-EU Euro user; co-principality duty-free area between Spain and France; tourist hub but hit hard by COVID-19; modern, non-tax haven financial sector; looking for big tech investments; new member of SEPA and IMF",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_093",
+    "question": "What are the major religions practiced in Andorra?",
+    "ground_truth": "Christian (predominantly Roman Catholic) 89.5, other 8.8%, unaffiliated 1.7% (2020 est.)",
+    "metadata": {
+      "country": "Andorra",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_094",
+    "question": "What are the primary agricultural products of Andorra?",
+    "ground_truth": "small quantities of rye, wheat, barley, oats, vegetables, tobacco, sheep, cattle",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_095",
+    "question": "When did Andorra gain its independence?",
+    "ground_truth": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_096",
+    "question": "What type of government does Andorra have?",
+    "ground_truth": "parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_097",
+    "question": "What languages are spoken in Andorra?",
+    "ground_truth": "Catalan (official) 44.1%, Castilian 40.3%, Portuguese 13.5%, French 10%, English 3%, other 6.8% (2022 est.)",
+    "metadata": {
+      "country": "Andorra",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_098",
+    "question": "What are the natural resources of Andorra?",
+    "ground_truth": "hydropower, mineral water, timber, iron ore, lead",
+    "metadata": {
+      "country": "Andorra",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_099",
+    "question": "What is the capital city of Fiji?",
+    "ground_truth": "Suva (on Viti Levu)",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_100",
+    "question": "What is the total population of Fiji?",
+    "ground_truth": "951,611",
+    "metadata": {
+      "country": "Fiji",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_101",
+    "question": "Where is Fiji located?",
+    "ground_truth": "Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_102",
+    "question": "What is the climate like in Fiji?",
+    "ground_truth": "tropical marine; only slight seasonal temperature variation",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_auto_103",
+    "question": "Describe the terrain of Fiji.",
+    "ground_truth": "mostly mountains of volcanic origin",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_104",
+    "question": "Provide a brief economic overview of Fiji.",
+    "ground_truth": "upper-middle income, tourism-based Pacific island economy; susceptible to ocean rises; key energy and infrastructure investments; post-pandemic tourism resurgence; improved debt standing; limited workforce",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Economy: Economic overview"
+    }
+  },
+  {
+    "id": "q_auto_105",
+    "question": "What are the major religions practiced in Fiji?",
+    "ground_truth": "Protestant 45% (Methodist 34.6%, Assembly of God 5.7%, Seventh Day Adventist 3.9%, and Anglican 0.8%), Hindu 27.9%, other Christian 10.4%, Roman Catholic 9.1%, Muslim 6.3%, Sikh 0.3%, other 0.3%, none 0.8% (2007 est.)",
+    "metadata": {
+      "country": "Fiji",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_106",
+    "question": "What are the primary agricultural products of Fiji?",
+    "ground_truth": "sugarcane, cassava, taro, vegetables, chicken, coconuts, eggs, ginger, milk, sweet potatoes (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_107",
+    "question": "When did Fiji gain its independence?",
+    "ground_truth": "10 October 1970 (from the UK)",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_108",
+    "question": "What type of government does Fiji have?",
+    "ground_truth": "parliamentary republic",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_109",
+    "question": "What languages are spoken in Fiji?",
+    "ground_truth": "English (official), iTaukei (official), Fiji Hindi (official)",
+    "metadata": {
+      "country": "Fiji",
+      "category": "People and Society: Languages"
+    }
+  },
+  {
+    "id": "q_auto_110",
+    "question": "What are the natural resources of Fiji?",
+    "ground_truth": "timber, fish, gold, copper, offshore oil potential, hydropower",
+    "metadata": {
+      "country": "Fiji",
+      "category": "Geography: Natural resources"
+    }
+  },
+  {
+    "id": "q_auto_111",
+    "question": "What is the capital city of Tunisia?",
+    "ground_truth": "Tunis",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Government: Capital - name"
+    }
+  },
+  {
+    "id": "q_auto_112",
+    "question": "What is the total population of Tunisia?",
+    "ground_truth": "12,048,847",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "People and Society: Population - total"
+    }
+  },
+  {
+    "id": "q_auto_113",
+    "question": "Where is Tunisia located?",
+    "ground_truth": "Northern Africa, bordering the Mediterranean Sea, between Algeria and Libya",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Geography: Location"
+    }
+  },
+  {
+    "id": "q_auto_114",
+    "question": "What is the climate like in Tunisia?",
+    "ground_truth": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Geography: Climate"
+    }
+  },
+  {
+    "id": "q_auto_115",
+    "question": "Describe the terrain of Tunisia.",
+    "ground_truth": "mountains in north; hot, dry central plain; semiarid south merges into the Sahara",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Geography: Terrain"
+    }
+  },
+  {
+    "id": "q_auto_116",
+    "question": "What are the major religions practiced in Tunisia?",
+    "ground_truth": "Muslim (official; Sunni) 99%, other (includes Christian, Jewish, Shia Muslim, and Baha'i) <1%",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "People and Society: Religions"
+    }
+  },
+  {
+    "id": "q_auto_117",
+    "question": "What are the primary agricultural products of Tunisia?",
+    "ground_truth": "milk, tomatoes, olives, onions, chillies/peppers, watermelons, potatoes, wheat, dates, oranges (2023)note: top ten agricultural products based on tonnage",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Economy: Agricultural products"
+    }
+  },
+  {
+    "id": "q_auto_118",
+    "question": "When did Tunisia gain its independence?",
+    "ground_truth": "20 March 1956 (from France)",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Government: Independence"
+    }
+  },
+  {
+    "id": "q_auto_119",
+    "question": "What type of government does Tunisia have?",
+    "ground_truth": "parliamentary republic",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "Government: Government type"
+    }
+  },
+  {
+    "id": "q_auto_120",
+    "question": "What languages are spoken in Tunisia?",
+    "ground_truth": "Arabic (official, one of the languages of commerce), French (commerce), Tamazight",
+    "metadata": {
+      "country": "Tunisia",
+      "category": "People and Society: Languages"
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "id": "q_001",
+        "question": "When did South Sudan gain its independence?",
+        "ground_truth": "9 July 2011 (from Sudan)",
+        "metadata": {
+            "country": "South Sudan",
+            "category": "Government: Independence"
+        }
+    },
+    {
+        "id": "q_002",
+        "question": "What is the climate like in Botswana?",
+        "ground_truth": "semiarid; warm winters and hot summers",
+        "metadata": {
+            "country": "Botswana",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_003",
+        "question": "What are the primary agricultural products of Namibia?",
+        "ground_truth": "root vegetables, milk, maize, beef, grapes, onions, wheat, fruits, pulses, vegetables (2023)note: top ten agricultural products based on tonnage",
+        "metadata": {
+            "country": "Namibia",
+            "category": "Economy: Agricultural products"
+        }
+    },
+    {
+        "id": "q_004",
+        "question": "Where is Nigeria located?",
+        "ground_truth": "Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon",
+        "metadata": {
+            "country": "Nigeria",
+            "category": "Geography: Location"
+        }
+    },
+    {
+        "id": "q_005",
+        "question": "What is the climate like in Jersey?",
+        "ground_truth": "temperate; mild winters and cool summers",
+        "metadata": {
+            "country": "Jersey",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_006",
+        "question": "Describe the terrain of Gambia, The.",
+        "ground_truth": "flood plain of the Gambia River flanked by some low hills",
+        "metadata": {
+            "country": "Gambia, The",
+            "category": "Geography: Terrain"
+        }
+    },
+    {
+        "id": "q_007",
+        "question": "Provide a brief economic overview of Curacao.",
+        "ground_truth": "high-income island economy; developed infrastructure; tourism and financial services-based economy; investing in information technology incentives; oil refineries service Venezuela and China; unique COVID-19 stimulus support applied to government debts rather than household support",
+        "metadata": {
+            "country": "Curacao",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_008",
+        "question": "Where is Tuvalu located?",
+        "ground_truth": "Oceania, island group consisting of nine coral atolls in the South Pacific Ocean, about half way from Hawaii to Australia",
+        "metadata": {
+            "country": "Tuvalu",
+            "category": "Geography: Location"
+        }
+    },
+    {
+        "id": "q_009",
+        "question": "What are the major religions practiced in Cook Islands?",
+        "ground_truth": "Protestant 55% (Cook Islands Christian Church 43.1%, Seventh Day Adventist 8.3%, Assemblies of God 3.6%), Roman Catholic 16.7%, Church of Jesus Christ 3.9%, Jehovah's Witness 2.2%, Apostolic Church 2.1%, other 4.5%, none/unspecified 15.6% (2021 est.)",
+        "metadata": {
+            "country": "Cook Islands",
+            "category": "People and Society: Religions"
+        }
+    },
+    {
+        "id": "q_010",
+        "question": "What are the primary agricultural products of Comoros?",
+        "ground_truth": "bananas, coconuts, cassava, yams, maize, taro, milk, tomatoes, sweet potatoes, pulses (2023)note: top ten agricultural products based on tonnage",
+        "metadata": {
+            "country": "Comoros",
+            "category": "Economy: Agricultural products"
+        }
+    },
+    {
+        "id": "q_011",
+        "question": "What is the climate like in New Caledonia?",
+        "ground_truth": "tropical; modified by southeast trade winds; hot, humid",
+        "metadata": {
+            "country": "New Caledonia",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_012",
+        "question": "Provide a brief economic overview of Papua New Guinea.",
+        "ground_truth": "lower middle-income Pacific island economy; primarily informal agrarian sector; natural resource-rich; key liquified natural gas exporter; growing young workforce; slow post-pandemic recovery; increasingly impoverished citizenry; sustainable inflation",
+        "metadata": {
+            "country": "Papua New Guinea",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_013",
+        "question": "What is the total population of Hong Kong?",
+        "ground_truth": "7,297,821",
+        "metadata": {
+            "country": "Hong Kong",
+            "category": "People and Society: Population - total"
+        }
+    },
+    {
+        "id": "q_014",
+        "question": "What is the total population of Suriname?",
+        "ground_truth": "646,758",
+        "metadata": {
+            "country": "Suriname",
+            "category": "People and Society: Population - total"
+        }
+    },
+    {
+        "id": "q_015",
+        "question": "When did Falkland Islands (Islas Malvinas) gain its independence?",
+        "ground_truth": "none (overseas territory of the UK; also claimed by Argentina)",
+        "metadata": {
+            "country": "Falkland Islands (Islas Malvinas)",
+            "category": "Government: Independence"
+        }
+    },
+    {
+        "id": "q_016",
+        "question": "Describe the terrain of Bulgaria.",
+        "ground_truth": "mostly mountains with lowlands in north and southeast",
+        "metadata": {
+            "country": "Bulgaria",
+            "category": "Geography: Terrain"
+        }
+    },
+    {
+        "id": "q_017",
+        "question": "Provide a brief economic overview of India.",
+        "ground_truth": "largest South Asian economy; strong, sustained GDP growth led by technology and service sectors, foreign investment, and improved regulatory framework; high poverty rate and income inequality; initiatives on infrastructure development, digitization, manufacturing, and financial access",
+        "metadata": {
+            "country": "India",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_018",
+        "question": "What is the total population of Burundi?",
+        "ground_truth": "13,590,102",
+        "metadata": {
+            "country": "Burundi",
+            "category": "People and Society: Population - total"
+        }
+    },
+    {
+        "id": "q_019",
+        "question": "What is the climate like in Grenada?",
+        "ground_truth": "tropical; tempered by northeast trade winds",
+        "metadata": {
+            "country": "Grenada",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_020",
+        "question": "What is the total population of Japan?",
+        "ground_truth": "123,201,945",
+        "metadata": {
+            "country": "Japan",
+            "category": "People and Society: Population - total"
+        }
+    },
+    {
+        "id": "q_021",
+        "question": "What is the climate like in Cuba?",
+        "ground_truth": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+        "metadata": {
+            "country": "Cuba",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_022",
+        "question": "Where is Lebanon located?",
+        "ground_truth": "Middle East, bordering the Mediterranean Sea, between Israel and Syria",
+        "metadata": {
+            "country": "Lebanon",
+            "category": "Geography: Location"
+        }
+    },
+    {
+        "id": "q_023",
+        "question": "What is the climate like in Maldives?",
+        "ground_truth": "tropical; hot, humid; dry, northeast monsoon (November to March); rainy, southwest monsoon (June to August)",
+        "metadata": {
+            "country": "Maldives",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_024",
+        "question": "Provide a brief economic overview of Kyrgyzstan.",
+        "ground_truth": "landlocked, lower-middle-income Central Asian economy; natural resource rich; growing hydroelectricity and tourism; high remittances; corruption limits investment; COVID-19 and political turmoil hurt GDP, limited public revenues, and increased spending",
+        "metadata": {
+            "country": "Kyrgyzstan",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_025",
+        "question": "Where is Bhutan located?",
+        "ground_truth": "Southern Asia, between China and India",
+        "metadata": {
+            "country": "Bhutan",
+            "category": "Geography: Location"
+        }
+    },
+    {
+        "id": "q_026",
+        "question": "What are the major religions practiced in Samoa?",
+        "ground_truth": "Protestant 54.9% (Congregationalist 29%, Methodist 12.4%, Assembly of God 6.8%, Seventh Day Adventist 4.4%, other Protestant 2.3%), Roman Catholic 18.8%, Church of Jesus Christ 16.9%, Worship Centre 2.8%, other Christian 3.6%, other 2.9% (includes Baha'i, Muslim), none 0.2% (2016 est.)",
+        "metadata": {
+            "country": "Samoa",
+            "category": "People and Society: Religions"
+        }
+    },
+    {
+        "id": "q_027",
+        "question": "Describe the terrain of Ghana.",
+        "ground_truth": "mostly low plains with dissected plateau in south-central area",
+        "metadata": {
+            "country": "Ghana",
+            "category": "Geography: Terrain"
+        }
+    },
+    {
+        "id": "q_028",
+        "question": "Provide a brief economic overview of Tunisia.",
+        "ground_truth": "lower middle-income North African economy; drafting reforms for foreign lenders; high unemployment, especially for youth and women; hit hard by COVID-19; high public sector wages; high public debt; protectionist austerity measures; key EU trade partner",
+        "metadata": {
+            "country": "Tunisia",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_029",
+        "question": "What are the primary agricultural products of Niue?",
+        "ground_truth": "coconuts, taro, fruits, sweet potatoes, tropical fruits, yams, vegetables, lemons/limes, bananas, pork (2023)note: top ten agricultural products based on tonnage",
+        "metadata": {
+            "country": "Niue",
+            "category": "Economy: Agricultural products"
+        }
+    },
+    {
+        "id": "q_030",
+        "question": "What is the capital city of Norfolk Island?",
+        "ground_truth": "Kingston",
+        "metadata": {
+            "country": "Norfolk Island",
+            "category": "Government: Capital - name"
+        }
+    },
+    {
+        "id": "q_031",
+        "question": "What is the climate like in Antigua and Barbuda?",
+        "ground_truth": "tropical maritime; little seasonal temperature variation",
+        "metadata": {
+            "country": "Antigua and Barbuda",
+            "category": "Geography: Climate"
+        }
+    },
+    {
+        "id": "q_032",
+        "question": "What is the capital city of Saint Helena, Ascension, and Tristan da Cunha?",
+        "ground_truth": "Jamestown",
+        "metadata": {
+            "country": "Saint Helena, Ascension, and Tristan da Cunha",
+            "category": "Government: Capital - name"
+        }
+    },
+    {
+        "id": "q_033",
+        "question": "What are the primary agricultural products of Djibouti?",
+        "ground_truth": "vegetables, beans, milk, beef, camel milk, lemons/limes, goat meat, lamb/mutton, tomatoes, beef offal (2023)note: top ten agricultural products based on tonnage",
+        "metadata": {
+            "country": "Djibouti",
+            "category": "Economy: Agricultural products"
+        }
+    },
+    {
+        "id": "q_034",
+        "question": "What are the major religions practiced in Israel?",
+        "ground_truth": "Jewish 73.5%, Muslim 18.1%, Christian 1.9%, Druze 1.6%, other 4.9% (2022 est.)",
+        "metadata": {
+            "country": "Israel",
+            "category": "People and Society: Religions"
+        }
+    },
+    {
+        "id": "q_035",
+        "question": "What are the major religions practiced in Sweden?",
+        "ground_truth": "Church of Sweden (Lutheran) 53.9%, other (includes Roman Catholic, Orthodox, Baptist, Muslim, Jewish, and Buddhist) 8.9%, none or unspecified 37.2% (2021 est.)",
+        "metadata": {
+            "country": "Sweden",
+            "category": "People and Society: Religions"
+        }
+    },
+    {
+        "id": "q_036",
+        "question": "What is the capital city of Guyana?",
+        "ground_truth": "Georgetown",
+        "metadata": {
+            "country": "Guyana",
+            "category": "Government: Capital - name"
+        }
+    },
+    {
+        "id": "q_037",
+        "question": "What is the total population of Taiwan?",
+        "ground_truth": "23,595,274",
+        "metadata": {
+            "country": "Taiwan",
+            "category": "People and Society: Population - total"
+        }
+    },
+    {
+        "id": "q_038",
+        "question": "Where is Korea, North located?",
+        "ground_truth": "Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea",
+        "metadata": {
+            "country": "Korea, North",
+            "category": "Geography: Location"
+        }
+    },
+    {
+        "id": "q_039",
+        "question": "Provide a brief economic overview of Brunei.",
+        "ground_truth": "almost exclusively an oil and gas economy; high income country; expansive and robust welfare system; the majority of the population works for the government; promulgating a nationalized halal brand; considering establishment of a bond market and stock exchange",
+        "metadata": {
+            "country": "Brunei",
+            "category": "Economy: Economic overview"
+        }
+    },
+    {
+        "id": "q_040",
+        "question": "What is the capital city of Pakistan?",
+        "ground_truth": "Islamabad",
+        "metadata": {
+            "country": "Pakistan",
+            "category": "Government: Capital - name"
+        }
+    }
+]

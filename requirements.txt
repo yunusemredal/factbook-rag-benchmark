@@ -1,0 +1,31 @@
+# ==============================================================================
+# RAG vs Fine-Tuning Benchmark — Requirements
+# ==============================================================================
+
+# Core Deep Learning & Transformers
+torch>=2.2.0
+transformers>=4.44.2
+accelerate>=0.34.2
+datasets>=2.19.0
+peft>=0.13.0
+trl>=0.11.0
+bitsandbytes>=0.43.0
+
+# Retrieval, Vector Search & Embeddings
+sentence-transformers>=2.6.0
+chromadb>=0.5.0
+faiss-cpu>=1.7.4
+langchain-text-splitters>=0.0.1
+
+# Data Analysis & Plotting
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.66.0
+psutil>=5.9.0
+
+# Cloud LLM APIs (Optional / Benchmark)
+google-generativeai>=0.8.0
+openai>=1.40.0
+

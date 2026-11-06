@@ -1,0 +1,77 @@
+# ==============================================================================
+# Git Ignore — RAG & Fine-Tuning Benchmark Project
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model Weights & Heavy Checkpoints (>100MB)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+checkpoint-*/
+*/checkpoint-*/*
+final_finetuned/*/checkpoint-*/
+final_finetuned/*/adapter_model.safetensors
+final_finetuned/*/model.safetensors
+
+# Vector DB Binary Indexes & Local DB Files
+chroma_db/
+chroma_db_final/
+chroma_eval_*/
+chroma_faiss_compare/
+*.sqlite3
+*.bin
+*.pickle
+
+# Secrets & Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+kaggle.json
+secrets.json
+*.key
+*.pem
+*.cert
+*.token
+
+# Logs & Temporary files
+*.log
+tmp/
+temp/
+scratch/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
