@@ -5,6 +5,12 @@ import os
 os.environ.setdefault("USE_TF", "0")
 os.environ.setdefault("USE_TORCH", "1")
 
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", message=".*torch.jit.script_method.*")
+warnings.filterwarnings("ignore", message=".*use_container_width.*")
+
 import re
 import html
 import json
@@ -15,6 +21,27 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from sentence_transformers import SentenceTransformer
+
+# ── Sürüm Uyumluluğu: Modern Streamlit (1.40+) ve Eski Sürüm Köprüsü ──────────
+def render_image(image_path, caption=""):
+    """Streamlit 1.40+ (width='stretch') ve önceki sürümleri uyarı vermeden destekler."""
+    try:
+        st.image(image_path, caption=caption, width="stretch")
+    except Exception:
+        try:
+            st.image(image_path, caption=caption, use_container_width=True)
+        except Exception:
+            st.image(image_path, caption=caption)
+
+def render_dataframe(df):
+    """Streamlit 1.40+ (width='stretch') ve önceki sürümleri uyarı vermeden destekler."""
+    try:
+        st.dataframe(df, width="stretch")
+    except Exception:
+        try:
+            st.dataframe(df, use_container_width=True)
+        except Exception:
+            st.dataframe(df)
 
 try:
     from openai import OpenAI
@@ -68,6 +95,60 @@ MAX_CHARS = int(sec_cfg.get("max_chars", st.secrets.get("MAX_CHARS", 400)))
 MAX_SESSION_QUERIES = int(sec_cfg.get("rate_limit_per_session", st.secrets.get("RATE_LIMIT_PER_SESSION", 15)))
 COOLDOWN_SECONDS = float(sec_cfg.get("cooldown_seconds", st.secrets.get("COOLDOWN_SECONDS", 2.0)))
 
+# ── TÜRKÇE SORU VE ÜLKE NORMALİZASYON SÖZLÜĞÜ ────────────────────────────────
+import unicodedata
+
+def normalize_tr_text(text: str) -> str:
+    """Türkçe karakterleri ve birleşik harfleri normalize eder."""
+    text = text.replace('İ', 'i').replace('I', 'i').replace('ı', 'i')
+    text = text.replace('Ş', 's').replace('ş', 's')
+    text = text.replace('Ğ', 'g').replace('ğ', 'g')
+    text = text.replace('Ü', 'u').replace('ü', 'u')
+    text = text.replace('Ö', 'o').replace('ö', 'o')
+    text = text.replace('Ç', 'c').replace('ç', 'c')
+    text = unicodedata.normalize('NFKD', text)
+    return ''.join(c for c in text if not unicodedata.combining(c)).lower()
+
+TR_TO_EN_SYNONYMS = {
+    'turkiye': 'Turkey', 'isvicre': 'Switzerland', 'hollanda': 'Netherlands',
+    'katar': 'Qatar', 'almanya': 'Germany', 'fransa': 'France',
+    'ingiltere': 'United Kingdom', 'birlesik krallik': 'United Kingdom',
+    'amerika': 'United States', 'abd': 'United States', 'italya': 'Italy',
+    'ispanya': 'Spain', 'rusya': 'Russia', 'cin': 'China', 'japonya': 'Japan',
+    'guney kore': 'South Korea', 'kuzey kore': 'North Korea', 'yunanistan': 'Greece',
+    'misir': 'Egypt', 'brezilya': 'Brazil', 'hindistan': 'India', 'kanada': 'Canada',
+    'avustralya': 'Australia', 'belcika': 'Belgium', 'avusturya': 'Austria',
+    'isvec': 'Sweden', 'norvec': 'Norway', 'danimarka': 'Denmark', 'finlandiya': 'Finland',
+    'polonya': 'Poland', 'ukrayna': 'Ukraine', 'romanya': 'Romania', 'bulgaristan': 'Bulgaria',
+    'azerbaycan': 'Azerbaijan', 'gurcistan': 'Georgia', 'ermenistan': 'Armenia',
+    'iran': 'Iran', 'irak': 'Iraq', 'suriye': 'Syria', 'lubnan': 'Lebanon', 'israil': 'Israel',
+    'suudi arabistan': 'Saudi Arabia', 'bae': 'United Arab Emirates', 'birlesik arap emirlikleri': 'United Arab Emirates',
+    'kuveyt': 'Kuwait', 'fas': 'Morocco', 'cezayir': 'Algeria', 'tunus': 'Tunisia',
+    'guney afrika': 'South Africa', 'meksika': 'Mexico', 'arjantin': 'Argentina',
+    'kolombiya': 'Colombia', 'venezuela': 'Venezuela', 'peru': 'Peru', 'sili': 'Chile',
+    'pakistan': 'Pakistan', 'afganistan': 'Afghanistan', 'ozbekistan': 'Uzbekistan',
+    'kazakistan': 'Kazakhstan', 'endonezya': 'Indonesia', 'malezya': 'Malaysia',
+    'singapur': 'Singapore', 'tayland': 'Thailand', 'vietnam': 'Vietnam',
+    'filipinler': 'Philippines', 'yeni zelanda': 'New Zealand', 'irlanda': 'Ireland',
+    'portekiz': 'Portugal', 'cekya': 'Czechia', 'macaristan': 'Hungary',
+    'baskent': 'capital city', 'baskenti': 'capital city', 'nufus': 'population',
+    'nufusu': 'population', 'dil': 'official languages', 'diller': 'official languages',
+    'resmi dil': 'official languages', 'resmi diller': 'official languages',
+    'iklim': 'climate', 'iklimi': 'climate', 'para birimi': 'currency',
+    'ekonomi': 'economy', 'yonetim': 'government'
+}
+
+def expand_query_for_search(q: str) -> str:
+    """Türkçe soruları ve ülke isimlerini Factbook İngilizce embedding alanına köprüler."""
+    norm = normalize_tr_text(q)
+    additions = []
+    for tr, en in TR_TO_EN_SYNONYMS.items():
+        if tr in norm:
+            additions.append(en)
+    if additions:
+        return q + " " + " ".join(dict.fromkeys(additions))
+    return q
+
 @st.cache_resource(show_spinner="🌍 258 Ülke Profili ve Vektör İndeksi Yükleniyor...")
 def init_rag_system():
     if not os.path.exists(DATA_FILE):
@@ -78,18 +159,70 @@ def init_rag_system():
 
     chunks = []
     for country, details in raw_data.items():
-        txt = f"Country: {country}. "
-        for k, v in list(details.items())[:12]:
-            if k != "url" and len(str(v).strip()) > 3:
-                txt += f"{k}: {v}. "
+        # 1. Chunk: Temel Bilgiler & Kimlik (Başkent, Nüfus, Diller, Yönetim, Konum)
+        capital = details.get('Government: Capital - name', 'N/A')
+        pop = details.get('People and Society: Population - total', details.get('People and Society: Population', 'N/A'))
+        langs = details.get('People and Society: Languages', 'N/A')
+        religions = details.get('People and Society: Religions', 'N/A')
+        loc = details.get('Geography: Location', 'N/A')
+        climate = details.get('Geography: Climate', 'N/A')
+        area = details.get('Geography: Area - total', 'N/A')
+        gov = details.get('Government: Government type', 'N/A')
+        gdp = details.get('Economy: Real GDP (purchasing power parity) 2023', details.get('Economy: Real GDP (purchasing power parity)', 'N/A'))
+        ind = details.get('Economy: Industries', 'N/A')
+
+        core_text = (
+            f"Country: {country}\n"
+            f"Capital City: {capital}\n"
+            f"Official Languages: {langs}\n"
+            f"Total Population: {pop}\n"
+            f"Geographic Location: {loc}\n"
+            f"Climate: {climate}\n"
+            f"Total Area: {area}\n"
+            f"Government Type: {gov}\n"
+            f"Economy & GDP: {gdp}\n"
+            f"Major Religions: {religions}\n"
+            f"Key Industries: {ind}"
+        )
         chunks.append({
-            "country": country,
-            "text": txt[:1200]
+            'country': country,
+            'section': 'Overview & Key Facts',
+            'text': core_text
+        })
+
+        # 2. Chunk: Tarihsel Arka Plan
+        bg = details.get('Introduction: Background', '').strip()
+        if bg:
+            chunks.append({
+                'country': country,
+                'section': 'Historical Background',
+                'text': f"Country: {country} | Section: History & Background\n{bg[:1500]}"
+            })
+
+        # 3. Chunk: Detaylı Coğrafya, Ekonomi ve Uluslararası Durum
+        terrain = details.get('Geography: Terrain', 'N/A')
+        resources = details.get('Geography: Natural resources', 'N/A')
+        borders = details.get('Geography: Land boundaries - total', 'N/A')
+        exports = details.get('Economy: Exports - partners', 'N/A')
+        military = details.get('Military and Security: Military and security forces', 'N/A')
+        
+        geo_text = (
+            f"Country: {country} | Section: Geography, Resources & Security\n"
+            f"Terrain: {terrain}\n"
+            f"Natural Resources: {resources}\n"
+            f"Land Boundaries: {borders}\n"
+            f"Export Partners: {exports}\n"
+            f"Military & Security: {military}"
+        )
+        chunks.append({
+            'country': country,
+            'section': 'Geography & Economy Details',
+            'text': geo_text
         })
 
     # CPU üzerinde optimize edilmiş vektörleme
     embedder = SentenceTransformer(EMBED_MODEL_NAME, device="cpu")
-    corpus_embeddings = embedder.encode([c["text"] for c in chunks], normalize_embeddings=True, device="cpu")
+    corpus_embeddings = embedder.encode([c["text"] for c in chunks], normalize_embeddings=True, device="cpu", batch_size=64)
     return chunks, embedder, corpus_embeddings
 
 try:
@@ -100,7 +233,9 @@ except Exception as e:
     st.stop()
 
 def retrieve(query, top_k=3):
-    q_emb = embedder.encode([query], normalize_embeddings=True, device="cpu")
+    # Türkçe sorular ve ülke adları için anlamsal genişletme uygula
+    search_query = expand_query_for_search(query)
+    q_emb = embedder.encode([search_query], normalize_embeddings=True, device="cpu")
     scores = np.dot(corpus_embeddings, q_emb.T).flatten()
     top_indices = np.argsort(scores)[::-1][:top_k]
     results = []
@@ -499,7 +634,7 @@ with tab_benchmark:
     if os.path.exists(csv_path):
         try:
             df_comp = pd.read_csv(csv_path)
-            st.dataframe(df_comp, use_container_width=True)
+            render_dataframe(df_comp)
         except Exception:
             st.info("Benchmark karşılaştırma tablosu yüklenemedi.")
 
@@ -510,22 +645,22 @@ with tab_benchmark:
     with c1:
         radar_img = os.path.join(OUTPUT_DIR, "final_human_eval_radar.png")
         if os.path.exists(radar_img):
-            st.image(radar_img, caption="İnsan Değerlendirmesi Radar Grafiği (Relevance, Faithfulness, Fluency)", use_container_width=True)
+            render_image(radar_img, caption="İnsan Değerlendirmesi Radar Grafiği (Relevance, Faithfulness, Fluency)")
     with c2:
         halluc_img = os.path.join(OUTPUT_DIR, "final_hallucination.png")
         if os.path.exists(halluc_img):
-            st.image(halluc_img, caption="Modellere ve Yöntemlere Göre Halüsinasyon Oranları (%)", use_container_width=True)
+            render_image(halluc_img, caption="Modellere ve Yöntemlere Göre Halüsinasyon Oranları (%)")
 
     c3, c4 = st.columns(2)
     with c3:
         lat_img = os.path.join(OUTPUT_DIR, "final_latency.png")
         if os.path.exists(lat_img):
-            st.image(lat_img, caption="Soru Başına Çıkarım Gecikmesi (Latency / s)", use_container_width=True)
+            render_image(lat_img, caption="Soru Başına Çıkarım Gecikmesi (Latency / s)")
     with c4:
         cost_img = os.path.join(OUTPUT_DIR, "final_cost_memory.png")
         if os.path.exists(cost_img):
-            st.image(cost_img, caption="GPU Bellek Tüketimi (VRAM) ve Tahmini Soru Maliyeti", use_container_width=True)
+            render_image(cost_img, caption="GPU Bellek Tüketimi (VRAM) ve Tahmini Soru Maliyeti")
 
     ood_img = os.path.join(OUTPUT_DIR, "final_ood_comparison.png")
     if os.path.exists(ood_img):
-        st.image(ood_img, caption="Alan Dışı (Out-of-Domain) Soruları Başarıyla Reddetme Oranları", use_container_width=True)
+        render_image(ood_img, caption="Alan Dışı (Out-of-Domain) Soruları Başarıyla Reddetme Oranları")
