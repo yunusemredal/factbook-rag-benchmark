@@ -10,6 +10,12 @@ import logging
 from sentence_transformers import SentenceTransformer
 
 try:
+    from openai import OpenAI
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+
+try:
     from huggingface_hub import InferenceClient
     HF_AVAILABLE = True
 except ImportError:
@@ -33,11 +39,18 @@ st.set_page_config(
 # ── 1. Veri ve Retriever'ı Önbelleğe Alarak Yükle ──────────────────────────────
 DATA_FILE = os.path.join(os.path.dirname(__file__), "data", "countries.json")
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
 
-# Ücretsiz (Free Tier) Destekli Güncel Modeller
-HF_MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
-GEMINI_MODEL_PRO = "gemini-2.5-pro"
-GEMINI_MODEL_FLASH = "gemini-2.5-flash"
+# GÜVENLİK & ESNEKLİK: Kodda hiçbir model adı sabitlenmemiştir.
+# Tüm API anahtarları ve model adları Streamlit Secrets / Ortam değişkenlerinden dinamik okunur.
+NVIDIA_API_KEY = str(st.secrets.get("NVIDIA_API_KEY", os.environ.get("NVIDIA_API_KEY", ""))).strip().strip('"').strip("'")
+NVIDIA_MODEL = str(st.secrets.get("NVIDIA_MODEL", os.environ.get("NVIDIA_MODEL", ""))).strip().strip('"').strip("'")
+
+HF_TOKEN = str(st.secrets.get("HF_TOKEN", os.environ.get("HF_TOKEN", ""))).strip().strip('"').strip("'")
+HF_MODEL = str(st.secrets.get("HF_MODEL", os.environ.get("HF_MODEL", ""))).strip().strip('"').strip("'")
+
+GEMINI_API_KEY = str(st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))).strip().strip('"').strip("'")
+GEMINI_MODEL = str(st.secrets.get("GEMINI_MODEL", os.environ.get("GEMINI_MODEL", ""))).strip().strip('"').strip("'")
 
 @st.cache_resource(show_spinner="🌍 258 Ülke Profili ve Vektör İndeksi Yükleniyor...")
 def init_rag_system():
@@ -105,21 +118,19 @@ with st.sidebar:
             st.rerun()
 
     st.markdown("---")
-    # GÜVENLİK ÖNLEMİ: Sadece arka plandaki gizli sunucu anahtarları okunur (Kullanıcı girişi kapatıldı)
-    secret_hf_token = str(st.secrets.get("HF_TOKEN", os.environ.get("HF_TOKEN", ""))).strip().strip('"').strip("'")
-    secret_gemini_key = str(st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))).strip().strip('"').strip("'")
-    
-    has_hf = bool(secret_hf_token)
-    has_gemini = bool(secret_gemini_key)
+    # API ve Model Durum Göstergesi (Secrets'tan dinamik tespit edilir)
+    active_providers = []
+    if NVIDIA_API_KEY and NVIDIA_MODEL:
+        active_providers.append(f"NVIDIA ({NVIDIA_MODEL})")
+    if HF_TOKEN and HF_MODEL:
+        active_providers.append(f"Hugging Face ({HF_MODEL})")
+    if GEMINI_API_KEY and GEMINI_MODEL:
+        active_providers.append(f"Google Gemini ({GEMINI_MODEL})")
 
-    if has_hf and has_gemini:
-        st.caption("🟢 **LLM:** Hibrit Aktif (1. HF Llama-3.1 ➔ 2. Gemini 2.5)")
-    elif has_hf:
-        st.caption("🟢 **LLM:** Hugging Face Aktif (Llama-3.1-8B)")
-    elif has_gemini:
-        st.caption("🟢 **LLM:** Google Gemini 2.5 Aktif")
+    if active_providers:
+        st.caption(f"🟢 **Aktif LLM:** {' ➔ '.join(active_providers)}")
     else:
-        st.caption("⚪ **LLM:** Hafif Demo Modu (Bağlam Gösterimi)")
+        st.caption("⚪ **LLM Durumu:** Hafif Demo Modu (Secrets'tan API anahtarı ve model bekleniyor)")
 
     st.markdown("---")
     st.subheader("💡 Örnek Sorular")
@@ -139,8 +150,10 @@ with st.sidebar:
     st.subheader("📊 Sistem Mimarisi")
     st.caption("• **Retriever:** `all-MiniLM-L6-v2` (Dense CPU)")
     st.caption(f"• **Kapsam:** {len(chunks)} Bağımsız Ülke")
-    st.caption("• **LLM 1 (Öncelik):** `Llama-3.1-8B` (Hugging Face)")
-    st.caption("• **LLM 2 (Otomatik Yedek):** `Gemini 2.5 Pro / Flash`")
+    if active_providers:
+        st.caption(f"• **Aktif Model:** `{active_providers[0]}`")
+    else:
+        st.caption("• **Model:** `Dinamik (Streamlit Secrets)`")
     st.markdown(
         "[💻 GitHub Repository](https://github.com/yunusemredal/factbook-rag-benchmark)",
         unsafe_allow_html=True
@@ -163,8 +176,8 @@ if "messages" not in st.session_state:
 # Başlık ve açıklama
 st.title("🌍 CIA World Factbook — RAG Soru-Cevap Asistanı")
 st.markdown(
-    "Semantik vektör arama ile Factbook veritabanından bağlamı çeker ve hibrit mimariyle "
-    "(**Öncelik:** `Llama-3.1-8B`, **Otomatik Yedek:** `Gemini 2.5`) doğrulanmış yanıt üretir."
+    "Semantik vektör arama ile Factbook veritabanından bağlamı çeker ve "
+    "dinamik LLM altyapısıyla doğrulanmış yanıt üretir."
 )
 
 # Kullanıcı adı kontrolü (Zorunlu giriş)
@@ -257,22 +270,22 @@ if prompt:
     )
     user_prompt = f"Context:\n{context_text}\n\nQuestion: {prompt}\nAnswer:"
 
-    # 3. LLM Çağrısı (Sadece güvenli sunucu anahtarları kullanılır)
-    active_hf = secret_hf_token
-    active_gemini = secret_gemini_key
-    
+    # 3. LLM Çağrısı (Dinamik Çoklu Sağlayıcı Pipeline: NVIDIA ➔ Hugging Face ➔ Gemini)
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
         answer = ""
         engine_badge = ""
 
-        # ── 1. ÖNCELİK: HUGGING FACE (meta-llama/Llama-3.1-8B-Instruct) ─────────────
-        if active_hf and HF_AVAILABLE:
+        # ── 1. ÖNCELİK: NVIDIA NIM API (OpenAI Uyumlu Endpoint) ───────────────────
+        if NVIDIA_API_KEY and NVIDIA_MODEL and OPENAI_AVAILABLE:
             try:
-                with st.spinner("Llama-3.1-8B yanıt üretiyor (Hugging Face)..."):
-                    client = InferenceClient(token=active_hf)
+                with st.spinner(f"NVIDIA API ({NVIDIA_MODEL}) yanıt üretiyor..."):
+                    client = OpenAI(
+                        base_url=NVIDIA_BASE_URL,
+                        api_key=NVIDIA_API_KEY
+                    )
                     response = client.chat.completions.create(
-                        model=HF_MODEL_NAME,
+                        model=NVIDIA_MODEL,
                         messages=[
                             {"role": "system", "content": system_prompt},
                             {"role": "user", "content": user_prompt}
@@ -281,20 +294,38 @@ if prompt:
                         temperature=0.2
                     )
                     answer = response.choices[0].message.content.strip()
-                    engine_badge = "⚡ Yanıt Motoru: **Llama-3.1-8B-Instruct (Hugging Face)**"
-                    logging.info("[LLM LOG] Soru Hugging Face (Llama-3.1-8B) ile başarıyla yanıtlandı.")
+                    engine_badge = f"⚡ Yanıt Motoru: **NVIDIA ({NVIDIA_MODEL})**"
+                    logging.info(f"[LLM LOG] Soru NVIDIA ({NVIDIA_MODEL}) ile başarıyla yanıtlandı.")
+            except Exception as e_nv:
+                logging.error(f"[NVIDIA ERROR]: {str(e_nv)}")
+
+        # ── 2. ÖNCELİK: HUGGING FACE INFERENCE ────────────────────────────────────
+        if not answer and HF_TOKEN and HF_MODEL and HF_AVAILABLE:
+            try:
+                with st.spinner(f"Hugging Face ({HF_MODEL}) yanıt üretiyor..."):
+                    client = InferenceClient(token=HF_TOKEN)
+                    response = client.chat.completions.create(
+                        model=HF_MODEL,
+                        messages=[
+                            {"role": "system", "content": system_prompt},
+                            {"role": "user", "content": user_prompt}
+                        ],
+                        max_tokens=350,
+                        temperature=0.2
+                    )
+                    answer = response.choices[0].message.content.strip()
+                    engine_badge = f"⚡ Yanıt Motoru: **Hugging Face ({HF_MODEL})**"
+                    logging.info(f"[LLM LOG] Soru Hugging Face ({HF_MODEL}) ile başarıyla yanıtlandı.")
             except Exception as e_hf:
-                # GÜVENLİK ÖNLEMİ: Ham hata sadece sunucu loguna yazılır, ekrana basılmaz
                 logging.error(f"[HF ERROR]: {str(e_hf)}")
 
-        # ── 2. ÖNCELİK / OTOMATİK YEDEK: GOOGLE GEMINI (2.5 Pro ➔ 2.5 Flash) ────────
-        if not answer and active_gemini and (genai is not None):
+        # ── 3. ÖNCELİK: GOOGLE GEMINI ─────────────────────────────────────────────
+        if not answer and GEMINI_API_KEY and GEMINI_MODEL and (genai is not None):
             try:
-                spinner_label = "Gemini 2.5 Pro devrede (Yedek Motor)..." if active_hf else "Gemini 2.5 Pro yanıt üretiyor..."
-                with st.spinner(spinner_label):
-                    genai.configure(api_key=active_gemini)
+                with st.spinner(f"Google Gemini ({GEMINI_MODEL}) yanıt üretiyor..."):
+                    genai.configure(api_key=GEMINI_API_KEY)
                     model = genai.GenerativeModel(
-                        model_name=GEMINI_MODEL_PRO,
+                        model_name=GEMINI_MODEL,
                         system_instruction=system_prompt
                     )
                     response = model.generate_content(
@@ -305,43 +336,21 @@ if prompt:
                         )
                     )
                     answer = response.text.strip()
-                    engine_badge = "⚡ Yanıt Motoru: **Gemini 2.5 Pro (Google AI)**"
-                    logging.info("[LLM LOG] Soru Google Gemini 2.5 Pro ile başarıyla yanıtlandı.")
+                    engine_badge = f"⚡ Yanıt Motoru: **Google Gemini ({GEMINI_MODEL})**"
+                    logging.info(f"[LLM LOG] Soru Google Gemini ({GEMINI_MODEL}) ile başarıyla yanıtlandı.")
             except Exception as e_gem:
-                gemini_err_msg = str(e_gem)
-                logging.error(f"[GEMINI PRO ERROR]: {gemini_err_msg}")
+                logging.error(f"[GEMINI ERROR]: {str(e_gem)}")
 
-                # Pro modelinde kota aşılırsa veya bir hata olursa anında yüksek limitli Flash'a geç
-                try:
-                    with st.spinner("Gemini 2.5 Flash ile tamamlanıyor..."):
-                        flash_model = genai.GenerativeModel(
-                            model_name=GEMINI_MODEL_FLASH,
-                            system_instruction=system_prompt
-                        )
-                        response = flash_model.generate_content(
-                            user_prompt,
-                            generation_config=genai.GenerationConfig(
-                                max_output_tokens=350,
-                                temperature=0.2
-                            )
-                        )
-                        answer = response.text.strip()
-                        engine_badge = "⚡ Yanıt Motoru: **Gemini 2.5 Flash (Google AI)**"
-                        logging.info("[LLM LOG] Soru Google Gemini 2.5 Flash ile başarıyla yanıtlandı.")
-                except Exception as e_flash:
-                    logging.error(f"[GEMINI FLASH ERROR]: {str(e_flash)}")
-
-        # ── 3. YANIT VEYA GÜVENLİ BİLGİLENDİRME METNİ ─────────────────────────────
+        # ── 4. YANIT VEYA GÜVENLİ BİLGİLENDİRME METNİ ─────────────────────────────
         if answer:
             full_response = f"{answer}\n\n*({engine_badge})*"
-        elif not active_hf and not active_gemini:
+        elif not NVIDIA_API_KEY and not HF_TOKEN and not GEMINI_API_KEY:
             full_response = (
-                f"*(Hafif Demo Modu — Yönetici tarafından sunucuya API anahtarı eklendiğinde tam LLM yanıtı aktifleşecektir)*\n\n"
+                f"*(Hafif Demo Modu — Yönetici tarafından Streamlit Secrets'a API anahtarı ve model adı eklendiğinde tam LLM yanıtı aktifleşecektir)*\n\n"
                 f"**Bulunan En Alakalı Bilgi ({matched_countries}):**\n\n"
                 f"{retrieved[0]['text'][:500]}..."
             )
         else:
-            # Her iki motor da çağrıldı ama yanıt alınamadıysa (Güvenli hata mesajı)
             full_response = (
                 f"*(⚠️ Model servislerinden şu an yanıt alınamadı. Doğrudan Factbook veritabanı özeti aşağıda sunulmuştur.)*\n\n"
                 f"**Erişilen Factbook Özeti ({matched_countries}):**\n\n"
