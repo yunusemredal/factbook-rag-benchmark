@@ -1,0 +1,18 @@
+[client]
+# Güvenlik: Kod patlarsa dosya yollarını, model isimlerini veya stack trace'i ziyaretçilere gösterme
+showErrorDetails = false
+
+[server]
+# Güvenlik: Siteler arası sahte istek (CSRF/XSRF) saldırılarını engelle
+enableXsrfProtection = true
+
+# Güvenlik: Dış sitelerden iframe veya izinsiz API isteklerini engelle
+enableCORS = false
+
+# Maksimum dosya boyutu sınırı (MB)
+maxUploadSize = 5
+
+[browser]
+# Telemetri ve istatistik veri sızıntılarını kapat
+gatherUsageStats = false
+
